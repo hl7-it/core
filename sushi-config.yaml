@@ -84,8 +84,12 @@ parameters:
 # │ property below.                                                                                │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
-  Home: index.html
+  IG Home: index.html
+  Sommario: toc.html
   Artifacts: artifacts.html
+  Support:
+    FHIR Spec: new-tab http://hl7.org/fhir/R4/index.html
+    Downloads: downloads.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │

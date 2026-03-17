@@ -44,7 +44,6 @@ Description: "Rappresentazione del medicinale tramite il profilo Medication"
 * code.coding[altro] ^short = "Qualora il codice del farmaco/integratore non ricada in nessuna delle precedenti alternative, è possibile utilizzare la slice 'altro'"
 * code.coding[altro].system = $vs-nullFlavor
 * code.coding[altro].code 1..
-//* code.coding[altro].display ^short = "Stringa libera per descrivere il farmaco"
 
 
 //* manufacturer only Reference(OrganizationItcore)

@@ -44,13 +44,14 @@ Description: "Descrizione di Address con parti addizionali specifiche per gli in
 
 * city ^definition = "Nome della città, paese, frazione, ecc."
 * city ^alias[0] = "Comune"
-//* city 1..1
+* city 1..1
 * city.extension contains
     $iso21090-code-string named codiceComune 0..1
 * city.extension[codiceComune].valueCoding from $vs-istat-comune (preferred)
+* city.extension[codiceComune].valueCoding.system 1..1
+* city.extension[codiceComune].valueCoding.code 1..1
 * city.extension[codiceComune] ^sliceName = "codiceComune"
 * city.extension[codiceComune] ^short = "Codice Comune"
-//* city obeys it-city-required
 * district ^short = "Nome della Provincia"
 * district ^definition = "Nome dell'area amministrativa (county).\r\nPer gli indirizzi italiani è usato per indicare la Provincia"
 * district ^alias[0] = "Provincia"
@@ -58,6 +59,8 @@ Description: "Descrizione di Address con parti addizionali specifiche per gli in
     $iso21090-code-string named codiceProvincia 0..1
 * district.extension[codiceProvincia] ^sliceName = "codiceProvincia"
 * district.extension[codiceProvincia] ^short = "Codice Provincia"
+* district.extension[codiceProvincia].valueCoding.system 1..1
+* district.extension[codiceProvincia].valueCoding.code 1..1
 * state 1..1
 * state ^short = "Sotto-unità dello stato (Regione)."
 * state ^definition = "Sotto-unità dello stato con limitata sovranità in uno stato oragnizzato federalmente.\r\nNel contesto italiano indica la \"Regione\""
@@ -67,6 +70,10 @@ Description: "Descrizione di Address con parti addizionali specifiche per gli in
 * state.extension[codiceRegione] ^sliceName = "codiceRegione"
 * state.extension[codiceRegione] ^short = "Codice Regione"
 * state.extension[codiceRegione].valueCoding from $vs-regioni (example)
+* state.extension[codiceRegione].valueCoding.system 1..1
+* state.extension[codiceRegione].valueCoding.code 1..1
+
+
 * postalCode obeys it-postal-code-pattern
   * ^comment = "I codici postali italiani hanno un pattern '[1,9]{4}'."
   * ^alias[0] = "CAP"
@@ -78,6 +85,9 @@ Description: "Descrizione di Address con parti addizionali specifiche per gli in
 * country.extension[codiceStato] ^sliceName = "codiceStato"
 * country.extension[codiceStato] ^short = "Codice Stato"
 * country.extension[codiceStato].valueCoding from $vs-stato (required)
+* country.extension[codiceStato].valueCoding.system 1..1
+* country.extension[codiceStato].valueCoding.code 1..1
+
 
 // ====== Invariants ====
 Invariant: it-postal-code-pattern

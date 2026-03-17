@@ -17,7 +17,5 @@ Questa guida ha lo scopo di definire i profili [HL7 FHIR](https://hl7.org/fhir/R
 {% include cross-version-analysis.xhtml %}
 
 
-
-
 ### Intellectual Property Statements
 {% include ip-statements.xhtml %}

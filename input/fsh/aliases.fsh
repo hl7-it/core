@@ -53,6 +53,8 @@ Alias: $dataAbsentReasonExt = http://hl7.org/fhir/StructureDefinition/data-absen
 Alias: $cs-codici-esenzioni = https://www.hl7.it/fhir/terminology/CodeSystem/mds-esenzioni
 Alias: $vs-esenzione-ne = http://hl7.it/fhir/itcore/ValueSet/vs-esenzione-ne
 Alias: $cs-coveragetype = 	http://terminology.hl7.org/CodeSystem/v3-ActCode
+
+//Medication
 Alias: $vs-whoatc = https://www.hl7.it/fhir/terminology/ValueSet/who-atc
 Alias: $cs-whoatc = https://atcddd.fhi.no/atc
 Alias: $vs-aifa-ge = https://www.hl7.it/fhir/terminology/ValueSet/aifa-ge
@@ -60,3 +62,12 @@ Alias: $cs-aifa-ge = https://www.hl7.it/fhir/terminology/CodeSystem/aifa-gruppo-
 Alias: $vs-nullFlavor = http://terminology.hl7.org/ValueSet/v3-NullFlavor
 Alias: $cs-nullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
 Alias: $vs-aifa-aic = https://www.hl7.it/fhir/terminology/ValueSet/aifa-aic
+Alias: $originalText = http://hl7.org/fhir/StructureDefinition/originalText
+
+//Organization
+Alias: $vs-asl =  https://www.hl7.it/fhir/terminology/ValueSet/uri-idAslRegione
+Alias: $vs-aslRegione = https://www.hl7.it/fhir/terminology/ValueSet/mds-asl-vs
+Alias: $vs-aziendaOspedaliera = https://www.hl7.it/fhir/terminology/ValueSet/minsan-idAziendeOspedaliere
+Alias: $vs-struttura = https://www.hl7.it/fhir/terminology/ValueSet/minsan-idStrutture
+Alias: $vs-strutturaInterna = https://www.hl7.it/fhir/terminology/ValueSet/minsan-idStruttureInterne 
+Alias: $vs-tipoOrg = https://www.hl7.it/fhir/terminology/ValueSet/tipoOrgSocioSanitaria
