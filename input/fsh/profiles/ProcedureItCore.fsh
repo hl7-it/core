@@ -2,7 +2,7 @@ Profile: ProcedureItCore
 Parent: Procedure
 Id: procedure-it-core
 Title: "Procedure - IG core"
-Description: "Rappresentazione di una procedura sanitaria, che può essere un’attività svolta sul paziente o a suo favore. Può essere un intervento fisico, come un’operazione, oppure una pratica meno invasiva, come servizi di assistenza continuativa, consulenza o trattamenti come l’ipnoterapia."
+Description: "Rappresentazione di una procedura sanitaria, che può essere un’attività svolta sul paziente o a suo favore."
 * . ^short = "Rappresentazione di una procedura sanitaria tramite la risorsa Procedure."
 
 * partOf only Reference(ProcedureItCore or Observation or MedicationAdministration)

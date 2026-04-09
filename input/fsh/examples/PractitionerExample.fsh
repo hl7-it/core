@@ -1,7 +1,7 @@
 Instance: Practitioner-Tecnico-Radiologia
 InstanceOf: PractitionerItcore
 Title: "Practitioner - Tecnico di radiologia medica"
-Description: "Esempio di tecnico di radiologia medica"
+Description: "Esempio di tecnico di radiologia medica iscritto al SSN rappresentato tramite il profilo PractitionerItCore"
 Usage: #example
 
 * id = "587bb258-60c7-4f44-8f23-973333aada8c"
@@ -21,7 +21,7 @@ Usage: #example
 
 * address.use = #home
 
-//* address.line[0] = "Via dei Genieri"
+* address.line[0] = "Via dei Genieri"
 * address.line[0].extension[odonimo].valueString = "Via dei Genieri"
 * address.line[1] = "Via"
 * address.line[1].extension[dugCode].valueCodeableConcept  = $cs-istat-dug#67 "via"
@@ -37,13 +37,8 @@ Usage: #example
 * address.state[0].extension[codiceRegione].valueCoding = $cs-regioni#120 "Lazio"
 * address.country[0] = "Italia"
 * address.country[0].extension[codiceStato].valueCoding = $cs-stato#100 "Italia"
-
-
 * gender = #female
 * birthDate = "1975-02-05"
-
 * qualification.code = $cs-titoloStudio#40102014 "Tecnico di radiologia medica"
-
-* communication.coding.system = "urn:ietf:bcp:47"
 * communication.coding.code = #it
-* communication.coding.display = "Italian"
+

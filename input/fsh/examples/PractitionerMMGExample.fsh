@@ -1,20 +1,20 @@
 Instance: Practitioner-Medico-MMG
 InstanceOf: PractitionerItcore
 Title: "Practitioner - Medico di medicina generale"
-Description: "Esempio di medico di medicina generale"
+Description: "Esempio di medico di medicina generale iscritto al SSN rappresentato tramite il profilo PractitionerItCore"
 Usage: #example
 
 * id = "1d1632b0-d7cc-49cf-9f2d-f5d8669e16ee"
 * identifier[codiceFiscale].system = "urn:oid:2.16.840.1.113883.2.9.4.3.2"
 * identifier[codiceFiscale].value = "LLNFLR70A67I804I"
 * active = true
-* name.family = "Allende"
-* name.given = "Flora"
+* name.family = "Mancini"
+* name.given = "Maria Sole"
 * telecom[0].system = #phone
 * telecom[0].value = "+39 3381234567"
 * telecom[0].use = #work
 * telecom[1].system = #email
-* telecom[1].value = "allende.flora@aslroma1.it"
+* telecom[1].value = "mancini.mariasole@aslroma1.it"
 * telecom[1].use = #work
 
 * address.use = #home

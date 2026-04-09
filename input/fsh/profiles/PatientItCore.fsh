@@ -139,7 +139,7 @@ XPath: "f:given or f:family"
 // ====== Invariants ====
 Invariant: it-city-required
 Description: "Nel caso in cui il Codice dello Stato (country) assuma il valore “Italia” (100), il campo city è obbligatorio"
-Severity:    #error
+Severity:    #warning
 Expression: "country.value=100 implies city.exists()"
 
 //ORGANZATION DA AGGIUNGERE LE REFERENCE QUANDO CI SARà il PROFILO

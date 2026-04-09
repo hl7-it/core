@@ -1,24 +1,20 @@
 Instance: Coverage-Esempio
 InstanceOf: CoverageItCore
-Title: "Coverage - Esempio"
-Description: "Esempio di copertura assicurativa"
+Title: "Coverage - Esenzione per infortunio sul lavoro"
+Description: "Esempio di esenzione per infortunio sul lavoro rappresentato tramite il profilo CoverageItCore"
 Usage: #example
 
 * id = "48fe737e-fc1a-4cde-9abf-899d3421d759"
-* identifier.system = "http://example.org/ssn/esenzione-id"
-* identifier.value = "AS01-2026-000890"
+
 * status = #active
 
 * type = $cs-coveragetype#PUBLICPOL "public healthcare"
-//* policyHolder = Reference(Organization-Esempio)
-* payor = Reference(Patient-Esempio)
-// payor temporaneo finchè non si definisce un profilo per un'organizzazione che eroga esenzioni ( ex. ASL, INPS, etc.)
+* policyHolder = Reference(Organization-aslroma2-Esempio)
+* payor = Reference(Organization-aslroma2-Esempio)
 * beneficiary = Reference(Patient-Esempio)
 
 * costToBeneficiary.valueQuantity.extension[data-absent-reason].url = "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
 * costToBeneficiary.valueQuantity.extension[data-absent-reason].valueCode = #not-applicable  
-
-
 * costToBeneficiary.exception.extension[+].url = "http://hl7.it/fhir/itcore/StructureDefinition/coverage-exceptionStatus"
 * costToBeneficiary.exception.extension[=].valueCodeableConcept = $cs-esenzione#active "active"
 

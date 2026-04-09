@@ -1,11 +1,12 @@
-Profile: MedicationItcore
+Profile: MedicationItCore
 Parent: Medication
 Id: medication-it-core
 Title: "Medication - IG core"
 Description: "Rappresentazione del medicinale tramite il profilo Medication"
 * . ^short = "Risorsa che descrive un medicinale e i suoi codici identificativi."
 
-
+* code 1..1
+* code.coding 1..*
 * code.coding ^slicing.discriminator.type = #value
 * code.coding ^slicing.discriminator.path = "system"
 * code.coding ^slicing.ordered = false
@@ -47,3 +48,4 @@ Description: "Rappresentazione del medicinale tramite il profilo Medication"
 * code.coding[altro].extension[descrizione] ^short = "Descrizione specifica per il farmaco che non rientra nelle codifiche AIC/ATC/GE"
 * code.coding[altro].extension[descrizione].valueString 1..
 * manufacturer only Reference(OrganizationItCore)
+* ingredient.itemReference only Reference(MedicationItCore)
