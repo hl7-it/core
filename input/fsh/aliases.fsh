@@ -74,6 +74,7 @@ Alias: $vs-aziendaOspedaliera = https://www.hl7.it/fhir/terminology/ValueSet/min
 Alias: $cs-aziendaOspedaliera = https://www.hl7.it/fhir/terminology/CodeSystem/minsan-hsp
 Alias: $vs-struttura = https://www.hl7.it/fhir/terminology/ValueSet/minsan-idStrutture
 Alias: $vs-strutturaInterna = https://www.hl7.it/fhir/terminology/ValueSet/minsan-idStruttureInterne 
+Alias: $cs-strutturaInterna = https://www.hl7.it/fhir/terminology/CodeSystem/cs-mds-idStruttureInterne
 Alias: $vs-tipoOrg = https://www.hl7.it/fhir/terminology/ValueSet/tipoOrgSocioSanitaria
 Alias: $cs-tipoOrg = https://www.hl7.it/fhir/terminology/CodeSystem/it-tipoEntita
 

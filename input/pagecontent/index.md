@@ -1,36 +1,88 @@
 
-### Scopo
+### Obiettivo
 
-Lo scopo della presente Implementation Guide è definire un insieme coerente, condiviso e riutilizzabile di profili, exstensions e terminologie che costituiscono il nucleo (it‑core) per tutte le Implementation Guide FHIR sviluppate nel contesto italiano.
-La guida fornisce un riferimento stabile per promuovere:
+Lo scopo della presente Implementation Guide è definire un insieme coerente, condiviso e riutilizzabile di profili, extensions e terminologie che costituiscono il nucleo (it‑core) per tutte le Implementation Guide FHIR sviluppate nel Realm Italiano. La guida fornisce un riferimento stabile per promuovere:
 
 <ul>
-<li>Uniformità e coerenza semantica tra le diverse IG nazionali e regionali.</li>
-<li>Interoperabilità sicura ed efficace tra i sistemi informativi sanitari coinvolti nei processi clinici, amministrativi. </li>
+<li>Uniformità e coerenza semantica tra le diverse IG nazionali e regionali;</li>
+<li>Interoperabilità sicura ed efficace tra i sistemi informativi sanitari coinvolti nei processi clinici e amministrativi; </li>
 <li>Riutilizzo e semplificazione nello sviluppo delle future IG, attraverso la definizione di componenti condivise e di un approccio progettuale armonizzato.</li>
 </ul>
 
-La presente guida si configura quindi come fondamento tecnico per tutte le successive Implementation Guide italiane, garantendo un impianto metodologico univoco e promuovendo una crescente standardizzazione nel contesto italiano, a beneficio dell’interoperabilità e della qualità dei dati sanitari
+La presente guida si configura quindi come fondamento tecnico per tutte le successive Implementation Guide italiane, garantendo un impianto metodologico univoco e promuovendo una crescente standardizzazione nel contesto italiano secondo le linee guida HL7 Italia, a beneficio dell’interoperabilità e della qualità dei dati sanitari.
 
-### Sintesi dei Profili
+### Contesto IG Core italiana
 
-La presente guida ha lo scopo di definire i profili [HL7 FHIR](https://hl7.org/fhir/R4B) fondamentali per il contesto italiano. In particolare, la guida specifica i seguenti profili it‑Core:
+La presente guida ha lo scopo di definire i profili, le extension e le terminologie [HL7 FHIR](https://hl7.org/fhir/R4B) fondamentali per il contesto italiano. 
+In particolare:
 
-- PatientItCore: profilo che definisce le caratteristiche dal paziente nel contesto italiano;
-- AddressItCore: profilo che definisce le caratteristiche dell'indirizzo associato a pazienti, professionisti, ecc...;
-- PractitionerItCore : profilo che definisce le caratteristiche di una persona coinvolta direttamente o indirettamente nell'assistenza sanitaria nel contesto italiano;
-- PractitioneRoleItCore : profilo che definisce il ruolo ricoperto da un professionista sanitario all'interno di un'organizzazione 
-- CoverageItCore: profilo che definisce le informazioni relative ad un'esenzione dal pagamento di prestazioni sanitarie;
-- OrganizationItCore: profilo che definisce le caratteristiche di un'organizzazione sanitaria e non;
-- MedicationItCore: profilo che definisce le caratteristiche di un farmaco e/o integratore;
-- ProcedureItCore: profilo che definissce le caratteristiche di una prestazione sanitaria.
+<ul>
+  <li>
+    <strong>Extensions</strong>
+    <ul>
+      <li>
+        Forniscono elementi aggiuntivi non presenti nel core FHIR,
+        consentendo di rappresentare informazioni rilevanti nel contesto italiano,
+        ma assenti nelle risorse base
+      </li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Profili</strong>
+    <ul>
+      <li>
+        <em>PatientItCore</em>: profilo che definisce le caratteristiche dell'assistito;
+      </li>
+      <li>
+        <em>PractitionerItCore</em>: profilo che descrive le informazioni relative
+        ai professionisti coinvolti nell’assistenza sanitaria;
+      </li>
+      <li>
+        <em>AddressItCore</em>: profilo che definisce la struttura dell’indirizzo
+        utilizzato per pazienti, operatori e organizzazioni;
+      </li>
+      <li>
+        <em>PractitionerRoleItCore</em>: profilo che rappresenta il ruolo ricoperto
+        da un professionista sanitario all’interno di un’organizzazione;
+      </li>
+      <li>
+        <em>CoverageItCore</em>: profilo che descrive le informazioni relative a
+        esenzioni e coperture sanitarie;
+      </li>
+      <li>
+        <em>OrganizationItCore</em>: profilo che definisce le caratteristiche di
+        un’organizzazione sanitaria o socio‑sanitaria;
+      </li>
+      <li>
+        <em>MedicationItCore</em>: profilo che rappresenta farmaci e integratori
+        seguendo le specifiche italiane per la definizione di medicinali;
+      </li>
+      <li>
+        <em>ProcedureItCore</em>: profilo che definisce le caratteristiche di una
+        prestazione o procedura sanitaria.
+      </li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Terminologie</strong>
+    <ul>
+      <li>
+        Includono insiemi di codici e valori specifici
+        necessari a rappresentare concetti normativi, clinici e
+        organizzativi.
+      </li>
+    </ul>
+  </li>
+</ul>
 
 
 <div>
   <p></p>
-  <figure>
-    <img src="igCore.png" alt="Core profiles" width="50%"/>
-    <figcaption><strong>Rappresentazione grafica dell'obiettivo della Ig Core</strong></figcaption>
+  <figure style="text-align: center;">
+    <img src="igCore.png" alt="Core profiles" width="80%"/>
+    <figcaption><strong>Rappresentazione grafica della IG Core</strong></figcaption>
   </figure>
   <p></p>
 </div>

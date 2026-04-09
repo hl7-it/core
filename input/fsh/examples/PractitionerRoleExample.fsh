@@ -1,21 +1,15 @@
 Instance: PractitionerRole-Tecnico-Radiologia
 InstanceOf: PractitionerRoleItcore
-Title: "PractitionerRole - Tecnico di radiologia medica"
-Description: "Esempio di ruolo di tecnico di radiologia medica"
+Title: "PractitionerRole - Professionista con ruolo di Tecnico di Radiologia Medica"
+Description: "Esempio di ruolo di tecnico di radiologia medica iscritto al SSN rappresentato tramite il profilo PractitionerRoleItCore"
 Usage: #example
 
 * id = "b0fd1872-5f75-4003-8bbe-e2c4595215a0"
 
-* identifier.system = "https://ospedale-roma.it/ruoli"
-* identifier.value = "RUOLO-12345"
-//* identifier.assigner = Reference(Organization-ASL-Roma1)
-
 * active = true
 * period.start = "2020-01-01"
 * period.end = "2030-12-31"
-
 * practitioner = Reference(Practitioner-Tecnico-Radiologia)
-
 * code = $cs-role-it#AS "altra specializzazione"
 * specialty = $cs-speciality#394914008 "Radiology"
 

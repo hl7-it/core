@@ -77,8 +77,6 @@ Description: "Insieme di codici che identificano il ruolo professionale svolto d
 
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsEsenzionieNE
 Id: vs-esenzione-ne
 Title: "Codici Esenzione"
@@ -87,3 +85,12 @@ Description: "Valuset che contiene i codici per le esenzioni più il code Nessun
 
 * include codes from system $cs-codici-esenzioni
 * include codes from system CsNessunaEsenzione
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ValueSet: VsStrutturaAzienda
+Id: vs-struttura-azienda
+Title: "identificativi per le Aziende Ospedaliere o Strutture di Ricovero (HSP 11)"
+Description: "Valuset che contiene i codici che rappresantono le Aziende Ospedaliere o Strutture di Ricovero"
+* ^experimental = false
+
+* include codes from system $cs-aziendaOspedaliera

@@ -1,6 +1,6 @@
 Instance: Medication-Metformina-Esempio
 InstanceOf: medication-it-core
-Title: "Medication - Esempio Metformina"
+Title: "Medication - Metformina"
 Description: "Esempio di farmaco per il diabete (Metformina) rappresentato tramite il profilo MedicationItCore"
 Usage: #example
 
@@ -23,7 +23,7 @@ Usage: #example
 
 Instance: Medication-Levothyrox-Esempio
 InstanceOf: medication-it-core
-Title: "Medication - Esempio Farmaco Straniero"
+Title: "Medication - Farmaco Straniero"
 Description: "Esempio di farmaco straniero, non codificabile tramite AIC/ATC, rappresentato tramite il profilo MedicationItCore"
 Usage: #example
 

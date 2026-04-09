@@ -1,6 +1,6 @@
 Profile: CoverageItCore
 Parent: Coverage
-Id: Coverage-it-core
+Id: coverage-it-core
 Title: "Coverage - IG Core"
 Description: "Rappresentazione delle esenzioni attraverso il profilo Coverage"
 * ^status = #draft

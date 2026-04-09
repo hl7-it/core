@@ -91,6 +91,24 @@ menu:
     FHIR Spec: new-tab http://hl7.org/fhir/R4/index.html
     Downloads: downloads.html
 
+groups:
+  ITCoreProfiles:
+    name: HL7 Italia Core Profiles
+    description: Definizione dei Profili Core per il contesto italiano (IT Realm) secondo le linee guida HL7 Italia.
+    resources:
+      - StructureDefinition/patient-it-core
+      - StructureDefinition/coverage-it-core
+      - StructureDefinition/practitioner-it-core
+      - StructureDefinition/practitionerRole-it-core
+      - StructureDefinition/organization-it-core
+      - StructureDefinition/medication-it-core
+      - StructureDefinition/procedure-it-core
+  ITCoreDataTypes:
+    name: HL7 Italia Core Data Types
+    description: Definizione dei Data Types Core per il contesto italiano.
+    resources:
+      - StructureDefinition/address-it-core
+    
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
 # │  resource. These properties are less commonly needed than those above.                         │
