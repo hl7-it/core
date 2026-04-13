@@ -1,7 +1,7 @@
 Profile: ProcedureItCore
 Parent: Procedure
 Id: procedure-it-core
-Title: "Procedure - IG core"
+Title: "Procedure - IG Core"
 Description: "Rappresentazione di una procedura sanitaria, che può essere un’attività svolta sul paziente o a suo favore."
 * . ^short = "Rappresentazione di una procedura sanitaria tramite la risorsa Procedure."
 

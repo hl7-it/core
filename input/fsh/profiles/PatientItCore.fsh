@@ -1,7 +1,7 @@
 Profile: PatientItcore
 Parent: Patient
 Id: patient-it-core
-Title: "Patient - IG core"
+Title: "Patient - IG Core"
 Description: "Rappresentazione del paziente tramite il profilo Patient"
 
 * . ^short = "Rappresentazione dei dati del paziente nello standard FHIR"

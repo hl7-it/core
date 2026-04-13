@@ -1,7 +1,7 @@
 Profile: MedicationItCore
 Parent: Medication
 Id: medication-it-core
-Title: "Medication - IG core"
+Title: "Medication - IG Core"
 Description: "Rappresentazione del medicinale tramite il profilo Medication"
 * . ^short = "Risorsa che descrive un medicinale e i suoi codici identificativi."
 
