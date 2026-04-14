@@ -38,7 +38,7 @@ Description: "Profilo base specifico per Organization: include le informazioni m
 * identifier[struttura] ^example.label = "AZIENDA OSP. S.GIOVANNI/ADDOLORATA ROMA"
 * identifier[struttura] ^example.valueString = "120902"
 
-* identifier[strutturaInterna] ^short = "Identificativo Struttura Interna di Ricovero (HSP 11)"
+* identifier[strutturaInterna] ^short = "Identificativo Struttura Interna di Ricovero"
 * identifier[strutturaInterna].system = $oid  // pattern
 * identifier[strutturaInterna].value from $vs-strutturaInterna (example)
 * identifier[strutturaInterna].system 1..1

@@ -1,7 +1,7 @@
 Profile: PractitionerItcore
 Parent: Practitioner
 Id: practitioner-it-core
-Title: "Practitioner - IG core"
+Title: "Practitioner - IG Core"
 Description: "Questo profilo definisce una persona direttamente o indirettamente coinvolta nella fornitura di assistenza sanitaria. "
 * . ^short = "Rappresentazione dell'individuo coinvolto nella procedura tramite la risorsa Practitioner."
 

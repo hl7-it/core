@@ -1,7 +1,7 @@
 Profile: AddressItcore
 Parent: Address
 Id: address-it-core
-Title: "Address - ITA"
+Title: "Address - IG Core"
 Description: "Descrizione di Address con parti addizionali specifiche per gli indirizzi italiani. Questo profilo struttura l'elemento  Address.line in più parti, consente la codifica di alcune di queste parti e supporta la caratterizzazine degli indirizzi di tipo Residenza."
 * . ^short = "Indirizzo fisico o postale"
 * . ^definition = "Esiste una varietà di formati di indirizzi postali definiti in tutto il mondo. Questo profilo (address-it-core) estende il datatype base Address includendo una serie di informazioni rilevanti per esprimere gli indirizzi in Italia. \r \n \r \n Un address-it-core è un indirizzo FHIR valido; i sistemi che non supportano le estensioni utilizzate saranno in grado comunque di eseguire il rendering e lavorare con un XXXX. \r \n \r \n Un indirizzo rende alcune parti di indirizzo comunicabili separatamente. Queste parti sono necessarie in alcuni scenari d'uso italiani, ma potrebbero non avere valore per i sistemi internazionali quando le informazioni vengono inviate all'estero."
