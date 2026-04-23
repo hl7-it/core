@@ -2,7 +2,7 @@
 HL7 Italia Implementation Guide including Core profiles for the IT Realm
 
 # Ballot: Guida alla votazione
-La procedura di ballot segue lo standard Jira Balloting di HL7 international FHIR, che prevede l'utilizzo delle Issue GitHub (le Issue aperte prima dell'inizio del ballot sono segnalate come "Pre-Ballot Close"). Tale procedura è utile a segnalare commenti correlati alla votazione, che ufficialmente deve avvenire nell'area [Discussion di GitHub](https://github.com/hl7-it/teleassistenza/discussions/1.html)
+La procedura di ballot segue lo standard Jira Balloting di HL7 international FHIR, che prevede l'utilizzo delle Issue GitHub (le Issue aperte prima dell'inizio del ballot sono segnalate come "Pre-Ballot Close"). Tale procedura è utile a segnalare commenti correlati alla votazione, che ufficialmente deve avvenire nell'area [Discussion di GitHub](https://github.com/hl7-it/core/discussions/7.html)
 - *Comment*
 - *Question*
 - *Technical Correction*
@@ -33,4 +33,4 @@ La procedura di ballot segue lo standard Jira Balloting di HL7 international FHI
   Esempio [Issue proposta Observation-LIS](https://github.com/hl7-it/lab-report/issues/21#issue-1684602474) : *Change Proposal*
 
 - Indicazioni su come fornire votazione valida al fine del ballottaggio è indicato nella sezione: <img src="input/images/change pro.png" width="95" alt=""/>
-  [Discussion](https://github.com/hl7-it/teleassistenza/discussions/1.html)
+  [Discussion](https://github.com/hl7-it/core/discussions/7.html)
