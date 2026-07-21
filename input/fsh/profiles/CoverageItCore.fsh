@@ -12,7 +12,7 @@ Description: "Rappresentazione delle esenzioni attraverso il profilo Coverage"
 * costToBeneficiary.value[x].extension[data-absent-reason].valueCode = #not-applicable 
 * costToBeneficiary.exception 
 * costToBeneficiary.exception.extension contains $coverage-exceptionStatus named stato-esenzione 0..1 
-* costToBeneficiary.exception.extension[stato-esenzione].valueCodeableConcept from $vs-stato-esenzione
+* costToBeneficiary.exception.extension[stato-esenzione].valueCodeableConcept from vs-stato-esenzione
 * costToBeneficiary.exception.type 
 * costToBeneficiary.exception.type ^short = "Codice esensione"
 * costToBeneficiary.exception.type from $vs-esenzione-ne (example)

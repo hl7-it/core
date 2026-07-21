@@ -11,7 +11,7 @@ Usage: #example
 * identifier[struttura].value = #120902
 * identifier[partitaIva].system = "urn:oid:2.16.840.1.113883.2.9.6.3.2"
 * identifier[partitaIva].value = "04735061006"
-* type = $cs-tipoOrg#ao "Azienda Opedaliera"
+* type = $CS-tipoEntita#ao "Azienda Opedaliera"
 * name = "Azienda Ospedaliera San Giovanni Addolorata"
 * telecom.system = #phone
 * telecom.value = "067010203"
@@ -33,7 +33,7 @@ Description: "Esempio di organizzazione ASL rappresentata tramite il profilo Org
 * identifier[aslRegione].system = "urn:oid:2.16.840.1.113883.2.9.4.1.1"
 * identifier[aslRegione].value = #120202
 * active = 	true
-* type = $cs-tipoOrg#asl "Azienda Sanitaria Locale"
+* type = $CS-tipoEntita#asl "Azienda Sanitaria Locale"
 * name = "ASL ROMA 2"
 * telecom[0].system = #phone
 * telecom[0].value = "0651004555"

@@ -47,7 +47,7 @@ Description: "Descrizione di Address con parti addizionali specifiche per gli in
 * city 1..1
 * city.extension contains
     $iso21090-code-string named codiceComune 0..1
-* city.extension[codiceComune].valueCoding from $vs-istat-comune (preferred)
+* city.extension[codiceComune].valueCoding from VsIstatComune (preferred)
 * city.extension[codiceComune].valueCoding.system 1..1
 * city.extension[codiceComune].valueCoding.code 1..1
 * city.extension[codiceComune] ^sliceName = "codiceComune"
@@ -59,6 +59,7 @@ Description: "Descrizione di Address con parti addizionali specifiche per gli in
     $iso21090-code-string named codiceProvincia 0..1
 * district.extension[codiceProvincia] ^sliceName = "codiceProvincia"
 * district.extension[codiceProvincia] ^short = "Codice Provincia"
+* district.extension[codiceProvincia].valueCoding from VsIstatProvincia (example)
 * district.extension[codiceProvincia].valueCoding.system 1..1
 * district.extension[codiceProvincia].valueCoding.code 1..1
 * state 1..1
@@ -69,7 +70,7 @@ Description: "Descrizione di Address con parti addizionali specifiche per gli in
     $iso21090-code-string named codiceRegione 0..1
 * state.extension[codiceRegione] ^sliceName = "codiceRegione"
 * state.extension[codiceRegione] ^short = "Codice Regione"
-* state.extension[codiceRegione].valueCoding from $vs-regioni (example)
+* state.extension[codiceRegione].valueCoding from VsMinSanRegioni (example)
 * state.extension[codiceRegione].valueCoding.system 1..1
 * state.extension[codiceRegione].valueCoding.code 1..1
 

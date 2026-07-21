@@ -9,7 +9,7 @@ Description: "Esempio di Paziente (uomo) iscritto al SSN rappresentato tramite i
 * extension[luogoNascita].valueAddress.line[+].extension[odonimo].valueString = "Piazza Ludovico Cerva"
 * extension[luogoNascita].valueAddress.line[=].extension[houseNumber].valueString = "3"
 * extension[luogoNascita].valueAddress.line[=] = "Piazza Ludovico Cerva, 3"
-* extension[luogoNascita].valueAddress.city = $cs-comuni#079023 "Catanzaro"
+* extension[luogoNascita].valueAddress.city = $cs-istat-comune#079023 "Catanzaro"
 * extension[luogoNascita].valueAddress.postalCode = "88100"
 * extension[luogoNascita].valueAddress.country = "IT"
 * extension[luogoNascita].valueAddress.state = $cs-regioni#180 "Calabria"
@@ -40,7 +40,7 @@ Description: "Esempio di Paziente (uomo) iscritto al SSN rappresentato tramite i
 * contact.telecom[0].value = "+39 999100099"
 
 * address.line.extension[dugCode].valueCodeableConcept  = $cs-istat-dug#67 "via"
-* address.city.extension[codiceComune].valueCoding = $cs-comuni#079023 "Catanzaro"
+* address.city.extension[codiceComune].valueCoding = $cs-istat-comune#079023 "Catanzaro"
 * address.country = #100
 * address.postalCode = "23839"
 * address.state = $cs-regioni#180 "Calabria"
@@ -61,7 +61,7 @@ Description: "Esempio di Paziente (donna) iscritta al SSN rappresentato tramite 
 * extension[luogoNascita].valueAddress.line[+].extension[odonimo].valueString = "Via dei Mille"
 * extension[luogoNascita].valueAddress.line[=].extension[houseNumber].valueString = "3"
 * extension[luogoNascita].valueAddress.line[=] = "Via dei Mille, 3"
-* extension[luogoNascita].valueAddress.city = $cs-comuni#058118 "Ciampino"
+* extension[luogoNascita].valueAddress.city = $cs-istat-comune#058118 "Ciampino"
 * extension[luogoNascita].valueAddress.postalCode = "88100"
 * extension[luogoNascita].valueAddress.country = "IT"
 * extension[luogoNascita].valueAddress.state = $cs-regioni#120 "Lazio"
@@ -91,7 +91,7 @@ Description: "Esempio di Paziente (donna) iscritta al SSN rappresentato tramite 
 * contact.telecom[0].value = "+39 123456799"
 
 * address.line.extension[dugCode].valueCodeableConcept  = $cs-istat-dug#67 "via"
-* address.city.extension[codiceComune].valueCoding = $cs-comuni#058118 "Ciampino"
+* address.city.extension[codiceComune].valueCoding = $cs-istat-comune#058118 "Ciampino"
 * address.country = #120
 * address.postalCode = "00043"
 * address.state = $cs-regioni#120 "Lazio"

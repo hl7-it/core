@@ -16,8 +16,8 @@ Usage: #example
 * costToBeneficiary.valueQuantity.extension[data-absent-reason].url = "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
 * costToBeneficiary.valueQuantity.extension[data-absent-reason].valueCode = #not-applicable  
 * costToBeneficiary.exception.extension[+].url = "http://hl7.it/fhir/itcore/StructureDefinition/coverage-exceptionStatus"
-* costToBeneficiary.exception.extension[=].valueCodeableConcept = $cs-esenzione#active "active"
+* costToBeneficiary.exception.extension[=].valueCodeableConcept = $V3ActStatus#active "active"
 
-* costToBeneficiary.exception.type = $cs-codici-esenzioni#L04 "Infortunati sul lavoro o affetti da malattie professionali (ex art.6 DM 1.2.1991)"
+* costToBeneficiary.exception.type = CsEsenzioni#L04 "Infortunati sul lavoro o affetti da malattie professionali (ex art.6 DM 1.2.1991)"
 * costToBeneficiary.exception.period.start = "2026-01-01"
 * costToBeneficiary.exception.period.end = "2026-12-31"

@@ -38,7 +38,7 @@ Description: "Rappresentazione del medicinale tramite il profilo Medication"
 * code.coding[GruppoEquivalenza].system 1..
 * code.coding[GruppoEquivalenza].system = "urn:oid:2.16.840.1.113883.2.9.6.1.51"
 * code.coding[GruppoEquivalenza].code 1..
-* code.coding[GruppoEquivalenza].code from $vs-aifa-ge
+* code.coding[GruppoEquivalenza].code from VsAifaGE
 * code.coding[GruppoEquivalenza].code ^short = "Codice del gruppo di equivalenza del farmaco"
 //----------------------Altro-----------------------
 * code.coding[altro] ^short = "Qualora il codice del farmaco/integratore non ricada in nessuna delle precedenti alternative, è possibile utilizzare la slice 'altro'"

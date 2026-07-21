@@ -25,7 +25,7 @@ Description: "Profilo base specifico per Organization: include le informazioni m
 * identifier[aslRegione].system 1..1
 * identifier[aslRegione].value 1..1
 * identifier[aslRegione].system = "urn:oid:2.16.840.1.113883.2.9.4.1.1"  // pattern
-* identifier[aslRegione].value from $vs-aslRegione (example)
+* identifier[aslRegione].value from VsMdsAsl (example)
 * identifier[aslRegione] ^example.label = "ASL ROMA 1"
 * identifier[aslRegione] ^example.valueString = "120201"
 
@@ -40,7 +40,7 @@ Description: "Profilo base specifico per Organization: include le informazioni m
 
 * identifier[strutturaInterna] ^short = "Identificativo Struttura Interna di Ricovero"
 * identifier[strutturaInterna].system = $oid  // pattern
-* identifier[strutturaInterna].value from $vs-strutturaInterna (example)
+* identifier[strutturaInterna].value from VsStrutturaInterna (example)
 * identifier[strutturaInterna].system 1..1
 * identifier[strutturaInterna].value 1..1
 * identifier[strutturaInterna] ^example.label = "ISTITUTO CHIRURGICO ORTOPEDICO REGINA MARGHERITA"
@@ -53,4 +53,4 @@ Description: "Profilo base specifico per Organization: include le informazioni m
 * identifier[partitaIva] ^example.label = "Partita IVA"
 * identifier[partitaIva] ^example.valueString = "12345678910"
 
-* type from $vs-tipoOrg (extensible)
+* type from VsTipoOrgSocioSanitaria (extensible)

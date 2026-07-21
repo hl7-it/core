@@ -1,0 +1,1436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="aifa-atc"/>
+    <name value="CsAtcPrincipio"/>
+    <title value="AIFA - ATC"/>
+    <status value="active"/>
+    <experimental value="false"/>
+    <caseSensitive value="false"/>
+    <description value="AIFA - ATC"/>
+    <content value="complete"/>
+    <language value="en-US"/>
+    <concept>
+        <code value="A10BF01"/>
+        <display value="Acarbosio"/>
+    </concept>
+    <concept>
+        <code value="M01AB16"/>
+        <display value="Aceclofenac"/>
+    </concept>
+    <concept>
+        <code value="J05AB01"/>
+        <display value="Aciclovir"/>
+    </concept>
+    <concept>
+        <code value="B01AC06"/>
+        <display value="Acido acetilsalicilico"/>
+    </concept>
+    <concept>
+        <code value="M05BA04"/>
+        <display value="Acido alendronico"/>
+    </concept>
+    <concept>
+        <code value="M05BB03"/>
+        <display value="Acido alendronico + Colecalciferolo"/>
+    </concept>
+    <concept>
+        <code value="A16AA05"/>
+        <display value="Acido carglumico"/>
+    </concept>
+    <concept>
+        <code value="M05BA02"/>
+        <display value="Acido clodronico"/>
+    </concept>
+    <concept>
+        <code value="B03BB01"/>
+        <display value="Acido folico"/>
+    </concept>
+    <concept>
+        <code value="L04AA06"/>
+        <display value="Acido Micofenolico"/>
+    </concept>
+    <concept>
+        <code value="B02AA02"/>
+        <display value="Acido tranexamico"/>
+    </concept>
+    <concept>
+        <code value="A05AA02"/>
+        <display value="Acido ursodesossicolico"/>
+    </concept>
+    <concept>
+        <code value="N03AG01"/>
+        <display value="Acido valproico (sale di sodio)"/>
+    </concept>
+    <concept>
+        <code value="D05BB02"/>
+        <display value="Acitretina"/>
+    </concept>
+    <concept>
+        <code value="V07AB"/>
+        <display value="Acqua per preparazioni iniettabili"/>
+    </concept>
+    <concept>
+        <code value="C01CA24"/>
+        <display value="Adrenalina"/>
+    </concept>
+    <concept>
+        <code value="G04CA01"/>
+        <display value="Alfuzosina"/>
+    </concept>
+    <concept>
+        <code value="M04AA01"/>
+        <display value="Allopurinolo"/>
+    </concept>
+    <concept>
+        <code value="N02CC05"/>
+        <display value="Almotriptan"/>
+    </concept>
+    <concept>
+        <code value="N05AD01"/>
+        <display value="Aloperidolo"/>
+    </concept>
+    <concept>
+        <code value="C02KX02"/>
+        <display value="Ambrisentan"/>
+    </concept>
+    <concept>
+        <code value="J01GB06"/>
+        <display value="Amikacina"/>
+    </concept>
+    <concept>
+        <code value="C01BD01"/>
+        <display value="Amiodarone"/>
+    </concept>
+    <concept>
+        <code value="N05AL05"/>
+        <display value="Amisulpride"/>
+    </concept>
+    <concept>
+        <code value="N06AA09"/>
+        <display value="Amitriptilina"/>
+    </concept>
+    <concept>
+        <code value="C08CA01"/>
+        <display value="Amlodipina"/>
+    </concept>
+    <concept>
+        <code value="C09DB01"/>
+        <display value="Amlodipina + Valsartan"/>
+    </concept>
+    <concept>
+        <code value="C09DX01"/>
+        <display value="Amlodipina+ Valsartan + Idroclorotiazide"/>
+    </concept>
+    <concept>
+        <code value="J01CA04"/>
+        <display value="Amoxicillina"/>
+    </concept>
+    <concept>
+        <code value="J01CR02"/>
+        <display value="Amoxicillina + Acido clavulanico"/>
+    </concept>
+    <concept>
+        <code value="L01XX35"/>
+        <display value="Anagrelide"/>
+    </concept>
+    <concept>
+        <code value="L02BG03"/>
+        <display value="Anastrozolo"/>
+    </concept>
+    <concept>
+        <code value="N05AX12"/>
+        <display value="Aripiprazolo"/>
+    </concept>
+    <concept>
+        <code value="C07AB03"/>
+        <display value="Atenololo"/>
+    </concept>
+    <concept>
+        <code value="C07CB03"/>
+        <display value="Atenololo + Clortalidone"/>
+    </concept>
+    <concept>
+        <code value="C10AA05"/>
+        <display value="Atorvastatina"/>
+    </concept>
+    <concept>
+        <code value="A03BA01"/>
+        <display value="Atropina"/>
+    </concept>
+    <concept>
+        <code value="L04AX01"/>
+        <display value="Azatioprina"/>
+    </concept>
+    <concept>
+        <code value="J01FA10"/>
+        <display value="Azitromicina"/>
+    </concept>
+    <concept>
+        <code value="M03BX01"/>
+        <display value="Baclofene"/>
+    </concept>
+    <concept>
+        <code value="A07EA07"/>
+        <display value="Beclometasone"/>
+    </concept>
+    <concept>
+        <code value="R03BA01"/>
+        <display value="Beclometasone/Formoterolo"/>
+    </concept>
+    <concept>
+        <code value="R03AK08"/>
+        <display value="Benazepril"/>
+    </concept>
+    <concept>
+        <code value="C09AA07"/>
+        <display value="Benazepril + Idroclorotiazide"/>
+    </concept>
+    <concept>
+        <code value="C09BA07"/>
+        <display value="Betametasone"/>
+    </concept>
+    <concept>
+        <code value="H02AB01"/>
+        <display value="Bicalutamide"/>
+    </concept>
+    <concept>
+        <code value="L02BB03"/>
+        <display value="Bimatoprost"/>
+    </concept>
+    <concept>
+        <code value="S01EE03"/>
+        <display value="Bimatoprost + Timololo"/>
+    </concept>
+    <concept>
+        <code value="S01ED51"/>
+        <display value="Bisoprololo"/>
+    </concept>
+    <concept>
+        <code value="C07AB07"/>
+        <display value="Bisoprololo + Idroclorotiazide"/>
+    </concept>
+    <concept>
+        <code value="C07BB07"/>
+        <display value="Bosentan"/>
+    </concept>
+    <concept>
+        <code value="C02KX01"/>
+        <display value="Brimonidina"/>
+    </concept>
+    <concept>
+        <code value="S01EA05"/>
+        <display value="Brimonidina + Timololo"/>
+    </concept>
+    <concept>
+        <code value="S01EC04"/>
+        <display value="Brinzolamide"/>
+    </concept>
+    <concept>
+        <code value="S01EC54"/>
+        <display value="Brinzolamide + Timololo"/>
+    </concept>
+    <concept>
+        <code value="J05AB15"/>
+        <display value="Brivudina"/>
+    </concept>
+    <concept>
+        <code value="G02CB01"/>
+        <display value="Bromocriptina"/>
+    </concept>
+    <concept>
+        <code value="R03BA02"/>
+        <display value="Budesonide"/>
+    </concept>
+    <concept>
+        <code value="A07EA06"/>
+        <display value="Budesonide + Formoterolo"/>
+    </concept>
+    <concept>
+        <code value="R03AK07"/>
+        <display value="Buprenorfina"/>
+    </concept>
+    <concept>
+        <code value="N02AE01"/>
+        <display value="Bupropione"/>
+    </concept>
+    <concept>
+        <code value="N06AX12"/>
+        <display value="Cabergolina"/>
+    </concept>
+    <concept>
+        <code value="G02CB03"/>
+        <display value="Calcifediolo"/>
+    </concept>
+    <concept>
+        <code value="A11CC06"/>
+        <display value="Calcio carbonato"/>
+    </concept>
+    <concept>
+        <code value="A12AA04"/>
+        <display value="Calcio carbonato + Colecalciferolo"/>
+    </concept>
+    <concept>
+        <code value="A12AA20"/>
+        <display value="Calcio fosfato + Colecalciferolo"/>
+    </concept>
+    <concept>
+        <code value="A12AX"/>
+        <display value="Calcipotriolo"/>
+    </concept>
+    <concept>
+        <code value="D05AX02"/>
+        <display value="Calcipotriolo + Betametasone"/>
+    </concept>
+    <concept>
+        <code value="D05AX52"/>
+        <display value="Calcitriolo"/>
+    </concept>
+    <concept>
+        <code value="A11CC04"/>
+        <display value="Candesartan cilexetil"/>
+    </concept>
+    <concept>
+        <code value="C09CA06"/>
+        <display value="Candesartan cilexetil + Amlodipina"/>
+    </concept>
+    <concept>
+        <code value="C09DB07"/>
+        <display value="Candesartan cilexetil + Idroclorotiazide"/>
+    </concept>
+    <concept>
+        <code value="C09DA06"/>
+        <display value="Capecitabina"/>
+    </concept>
+    <concept>
+        <code value="L01BC06"/>
+        <display value="Captopril"/>
+    </concept>
+    <concept>
+        <code value="C09AA01"/>
+        <display value="Captopril + Idroclorotiazide"/>
+    </concept>
+    <concept>
+        <code value="C09BA01"/>
+        <display value="Carbamazepina"/>
+    </concept>
+    <concept>
+        <code value="N03AF01"/>
+        <display value="Carvedilolo"/>
+    </concept>
+    <concept>
+        <code value="C07AG02"/>
+        <display value="Cefaclor"/>
+    </concept>
+    <concept>
+        <code value="J01DC04"/>
+        <display value="Cefazolina"/>
+    </concept>
+    <concept>
+        <code value="J01DB04"/>
+        <display value="Cefixima"/>
+    </concept>
+    <concept>
+        <code value="J01DD08"/>
+        <display value="Cefotaxima"/>
+    </concept>
+    <concept>
+        <code value="J01DD01"/>
+        <display value="Cefpodoxima"/>
+    </concept>
+    <concept>
+        <code value="J01DD13"/>
+        <display value="Ceftazidima"/>
+    </concept>
+    <concept>
+        <code value="J01DD02"/>
+        <display value="Ceftriaxone"/>
+    </concept>
+    <concept>
+        <code value="J01DD04"/>
+        <display value="Cefuroxima"/>
+    </concept>
+    <concept>
+        <code value="J01DC02"/>
+        <display value="Celecoxib"/>
+    </concept>
+    <concept>
+        <code value="M01AH01"/>
+        <display value="Cetirizina"/>
+    </concept>
+    <concept>
+        <code value="R06AE07"/>
+        <display value="Ciclosporina"/>
+    </concept>
+    <concept>
+        <code value="L04AD01"/>
+        <display value="Cinacalcet"/>
+    </concept>
+    <concept>
+        <code value="H05BX01"/>
+        <display value="Ciprofloxacina"/>
+    </concept>
+    <concept>
+        <code value="J01MA02"/>
+        <display value="Ciproterone + Etinilestradiolo"/>
+    </concept>
+    <concept>
+        <code value="G03HB01"/>
+        <display value="Citalopram"/>
+    </concept>
+    <concept>
+        <code value="N06AB04"/>
+        <display value="Claritromicina"/>
+    </concept>
+    <concept>
+        <code value="J01FA09"/>
+        <display value="Clobetasolo"/>
+    </concept>
+    <concept>
+        <code value="D07AD01"/>
+        <display value="Clopidogrel"/>
+    </concept>
+    <concept>
+        <code value="B01AC04"/>
+        <display value="Clopidogrel + Acido acetilsalicilico"/>
+    </concept>
+    <concept>
+        <code value="B01AC30"/>
+        <display value="Clozapina"/>
+    </concept>
+    <concept>
+        <code value="N05AH02"/>
+        <display value="Colecalciferolo"/>
+    </concept>
+    <concept>
+        <code value="A11CC05"/>
+        <display value="Deferasirox"/>
+    </concept>
+    <concept>
+        <code value="V03AC03"/>
+        <display value="Deferiprone"/>
+    </concept>
+    <concept>
+        <code value="V03AC02"/>
+        <display value="Deferoxamina"/>
+    </concept>
+    <concept>
+        <code value="V03AC01"/>
+        <display value="Desametasone"/>
+    </concept>
+    <concept>
+        <code value="H02AB02"/>
+        <display value="Desloratadina"/>
+    </concept>
+    <concept>
+        <code value="R06AX27"/>
+        <display value="Diclofenac"/>
+    </concept>
+    <concept>
+        <code value="M01AB05"/>
+        <display value="Diltiazem"/>
+    </concept>
+    <concept>
+        <code value="D11AX18"/>
+        <display value="Donepezil"/>
+    </concept>
+    <concept>
+        <code value="C08DB01"/>
+        <display value="Dorzolamide"/>
+    </concept>
+    <concept>
+        <code value="N06DA02"/>
+        <display value="Dorzolamide + Timololo"/>
+    </concept>
+    <concept>
+        <code value="S01EC03"/>
+        <display value="Doxazosin"/>
+    </concept>
+    <concept>
+        <code value="G04CA"/>
+        <display value="Doxiciclina"/>
+    </concept>
+    <concept>
+        <code value="C02CA04"/>
+        <display value="Dronedarone"/>
+    </concept>
+    <concept>
+        <code value="J01AA02"/>
+        <display value="Duloxetina"/>
+    </concept>
+    <concept>
+        <code value="C01BD07"/>
+        <display value="Dutasteride"/>
+    </concept>
+    <concept>
+        <code value="N06AX21"/>
+        <display value="Ebastina"/>
+    </concept>
+    <concept>
+        <code value="G04CB02"/>
+        <display value="Eletriptan"/>
+    </concept>
+    <concept>
+        <code value="R06AX22"/>
+        <display value="Enalapril"/>
+    </concept>
+    <concept>
+        <code value="N02CC06"/>
+        <display value="Enalapril + Idroclorotiazide"/>
+    </concept>
+    <concept>
+        <code value="C09AA02"/>
+        <display value="Enalapril + Lercanidipina"/>
+    </concept>
+    <concept>
+        <code value="C09BA02"/>
+        <display value="Entecavir"/>
+    </concept>
+    <concept>
+        <code value="C09BB02"/>
+        <display value="Eparina calcica"/>
+    </concept>
+    <concept>
+        <code value="J05AF10"/>
+        <display value="Eparina sodica"/>
+    </concept>
+    <concept>
+        <code value="B01AB01"/>
+        <display value="Eplerenone"/>
+    </concept>
+    <concept>
+        <code value="C03DA04"/>
+        <display value="Escitalopram"/>
+    </concept>
+    <concept>
+        <code value="N06AB10"/>
+        <display value="Eslicarbazepina"/>
+    </concept>
+    <concept>
+        <code value="N03AF04"/>
+        <display value="Esomeprazolo"/>
+    </concept>
+    <concept>
+        <code value="A02BC05"/>
+        <display value="Estradiolo"/>
+    </concept>
+    <concept>
+        <code value="G03CA03"/>
+        <display value="Estradiolo + Drospirenone"/>
+    </concept>
+    <concept>
+        <code value="G03FA17"/>
+        <display value="Etoricoxib"/>
+    </concept>
+    <concept>
+        <code value="M01AH05"/>
+        <display value="Exemestane"/>
+    </concept>
+    <concept>
+        <code value="L02BG06"/>
+        <display value="Ezetimibe"/>
+    </concept>
+    <concept>
+        <code value="C10AX09"/>
+        <display value="Ezetimibe + Atorvastatina"/>
+    </concept>
+    <concept>
+        <code value="C10BA05"/>
+        <display value="Ezetimibe + Atorvastatina"/>
+    </concept>
+    <concept>
+        <code value="C10BA02"/>
+        <display value="Ezetimibe + Simvastatina"/>
+    </concept>
+    <concept>
+        <code value="J05AB09"/>
+        <display value="Famciclovir"/>
+    </concept>
+    <concept>
+        <code value="M04AA03"/>
+        <display value="Febuxostat"/>
+    </concept>
+    <concept>
+        <code value="C08CA02"/>
+        <display value="Felodipina"/>
+    </concept>
+    <concept>
+        <code value="C10AB05"/>
+        <display value="Fenofibrato"/>
+    </concept>
+    <concept>
+        <code value="N02AB03"/>
+        <display value="Fentanil"/>
+    </concept>
+    <concept>
+        <code value="B03AA03"/>
+        <display value="Ferroso gluconato"/>
+    </concept>
+    <concept>
+        <code value="R06AX26"/>
+        <display value="Fexofenadina"/>
+    </concept>
+    <concept>
+        <code value="G04CB01"/>
+        <display value="Finasteride"/>
+    </concept>
+    <concept>
+        <code value="C01BC04"/>
+        <display value="Flecainide"/>
+    </concept>
+    <concept>
+        <code value="J02AC01"/>
+        <display value="Fluconazolo"/>
+    </concept>
+    <concept>
+        <code value="R03BA03"/>
+        <display value="Flunisolide"/>
+    </concept>
+    <concept>
+        <code value="N06AB03"/>
+        <display value="Fluoxetina"/>
+    </concept>
+    <concept>
+        <code value="R03BA05"/>
+        <display value="Fluticasone"/>
+    </concept>
+    <concept>
+        <code value="D07AC17"/>
+        <display value="Fluvastatina"/>
+    </concept>
+    <concept>
+        <code value="C10AA04"/>
+        <display value="Fluvoxamina"/>
+    </concept>
+    <concept>
+        <code value="N06AB08"/>
+        <display value="Formoterolo"/>
+    </concept>
+    <concept>
+        <code value="R03AC13"/>
+        <display value="Fosfomicina"/>
+    </concept>
+    <concept>
+        <code value="J01XX01"/>
+        <display value="Fosinopril"/>
+    </concept>
+    <concept>
+        <code value="C09AA09"/>
+        <display value="Fosinopril + Idroclorotiazide"/>
+    </concept>
+    <concept>
+        <code value="C09BA09"/>
+        <display value="Frovatriptan"/>
+    </concept>
+    <concept>
+        <code value="N02CC07"/>
+        <display value="Furosemide"/>
+    </concept>
+    <concept>
+        <code value="C03CA01"/>
+        <display value="Gabapentin"/>
+    </concept>
+    <concept>
+        <code value="N02BF01"/>
+        <display value="Galantamina"/>
+    </concept>
+    <concept>
+        <code value="N06DA04"/>
+        <display value="Gemfibrozil"/>
+    </concept>
+    <concept>
+        <code value="C10AB04"/>
+        <display value="Glatiramer"/>
+    </concept>
+    <concept>
+        <code value="L03AX13"/>
+        <display value="Gliclazide"/>
+    </concept>
+    <concept>
+        <code value="A10BB09"/>
+        <display value="Glimepiride"/>
+    </concept>
+    <concept>
+        <code value="A10BB12"/>
+        <display value="Glucosio"/>
+    </concept>
+    <concept>
+        <code value="B05BA03"/>
+        <display value="Granisetrone"/>
+    </concept>
+    <concept>
+        <code value="A04AA02"/>
+        <display value="Griseofulvina"/>
+    </concept>
+    <concept>
+        <code value="D01BA01"/>
+        <display value="Ibuprofene"/>
+    </concept>
+    <concept>
+        <code value="M01AE01"/>
+        <display value="Idroclorotiazide"/>
+    </concept>
+    <concept>
+        <code value="C03AA03"/>
+        <display value="Idrossiclorochina"/>
+    </concept>
+    <concept>
+        <code value="P01BA02"/>
+        <display value="Iloprost"/>
+    </concept>
+    <concept>
+        <code value="B01AC11"/>
+        <display value="Imatinib"/>
+    </concept>
+    <concept>
+        <code value="L01EA01"/>
+        <display value="Imiquimod"/>
+    </concept>
+    <concept>
+        <code value="D06BB10"/>
+        <display value="Indapamide"/>
+    </concept>
+    <concept>
+        <code value="C03BA11"/>
+        <display value="Ipratropio bromuro"/>
+    </concept>
+    <concept>
+        <code value="R03BB01"/>
+        <display value="Irbesartan"/>
+    </concept>
+    <concept>
+        <code value="C09CA04"/>
+        <display value="Irbesartan + Idroclorotiazide"/>
+    </concept>
+    <concept>
+        <code value="C09DA04"/>
+        <display value="Isosorbide mononitrato"/>
+    </concept>
+    <concept>
+        <code value="C01DA14"/>
+        <display value="Isotretinoina"/>
+    </concept>
+    <concept>
+        <code value="D10BA01"/>
+        <display value="Itraconazolo"/>
+    </concept>
+    <concept>
+        <code value="J02AC02"/>
+        <display value="Ivabradina"/>
+    </concept>
+    <concept>
+        <code value="C01EB17"/>
+        <display value="Ketoprofene"/>
+    </concept>
+    <concept>
+        <code value="M01AE03"/>
+        <display value="Ketorolac"/>
+    </concept>
+    <concept>
+        <code value="M01AB15"/>
+        <display value="Ketotifene"/>
+    </concept>
+    <concept>
+        <code value="R06AX17"/>
+        <display value="Lacidipina"/>
+    </concept>
+    <concept>
+        <code value="C08CA09"/>
+        <display value="Lacosamide"/>
+    </concept>
+    <concept>
+        <code value="N03AX18"/>
+        <display value="Lamivudina"/>
+    </concept>
+    <concept>
+        <code value="J05AF05"/>
+        <display value="Lamotrigina"/>
+    </concept>
+    <concept>
+        <code value="N03AX09"/>
+        <display value="Lanreotide"/>
+    </concept>
+    <concept>
+        <code value="H01CB03"/>
+        <display value="Lansoprazolo"/>
+    </concept>
+    <concept>
+        <code value="A02BC03"/>
+        <display value="Latanoprost"/>
+    </concept>
+    <concept>
+        <code value="S01EE01"/>
+        <display value="Latanoprost + Timololo"/>
+    </concept>
+    <concept>
+        <code value="L04AA13"/>
+        <display value="Leflunomide"/>
+    </concept>
+    <concept>
+        <code value="C08CA13"/>
+        <display value="Lercanidipina"/>
+    </concept>
+    <concept>
+        <code value="L02BG04"/>
+        <display value="Letrozolo"/>
+    </concept>
+    <concept>
+        <code value="N03AX14"/>
+        <display value="Levetiracetam"/>
+    </concept>
+    <concept>
+        <code value="A16AA01"/>
+        <display value="Levocarnitina"/>
+    </concept>
+    <concept>
+        <code value="R06AE09"/>
+        <display value="Levocetirizina"/>
+    </concept>
+    <concept>
+        <code value="N04BA02"/>
+        <display value="Levodopa + Carbidopa"/>
+    </concept>
+    <concept>
+        <code value="N04BA03"/>
+        <display value="Levodopa/carbidopa/entacapone"/>
+    </concept>
+    <concept>
+        <code value="J01MA12"/>
+        <display value="Levofloxacina"/>
+    </concept>
+    <concept>
+        <code value="H03AA01"/>
+        <display value="Levotiroxina"/>
+    </concept>
+    <concept>
+        <code value="J01XX08"/>
+        <display value="Linezolid"/>
+    </concept>
+    <concept>
+        <code value="C09AA03"/>
+        <display value="Lisinopril"/>
+    </concept>
+    <concept>
+        <code value="C09BA03"/>
+        <display value="Lisinopril + Idroclorotiazide"/>
+    </concept>
+    <concept>
+        <code value="R06AX13"/>
+        <display value="Loratadina"/>
+    </concept>
+    <concept>
+        <code value="C09CA01"/>
+        <display value="Losartan"/>
+    </concept>
+    <concept>
+        <code value="C09DA01"/>
+        <display value="Losartan + Idroclorotiazide"/>
+    </concept>
+    <concept>
+        <code value="C10AA02"/>
+        <display value="Lovastatina"/>
+    </concept>
+    <concept>
+        <code value="A02AD02"/>
+        <display value="Magaldrato"/>
+    </concept>
+    <concept>
+        <code value="C08CA11"/>
+        <display value="Manidipina"/>
+    </concept>
+    <concept>
+        <code value="L02AB01"/>
+        <display value="Megestrolo"/>
+    </concept>
+    <concept>
+        <code value="M01AC06"/>
+        <display value="Meloxicam"/>
+    </concept>
+    <concept>
+        <code value="N06DX01"/>
+        <display value="Memantina"/>
+    </concept>
+    <concept>
+        <code value="A07EC02"/>
+        <display value="Mesalazina"/>
+    </concept>
+    <concept>
+        <code value="A10BA02"/>
+        <display value="Metformina"/>
+    </concept>
+    <concept>
+        <code value="A10BD02"/>
+        <display value="Metformina + Glibenclamide"/>
+    </concept>
+    <concept>
+        <code value="H02AB04"/>
+        <display value="Metilprednisolone"/>
+    </concept>
+    <concept>
+        <code value="A03FA01"/>
+        <display value="Metoclopramide"/>
+    </concept>
+    <concept>
+        <code value="C07AB02"/>
+        <display value="Metoprololo"/>
+    </concept>
+    <concept>
+        <code value="L04AX03"/>
+        <display value="Metotrexato"/>
+    </concept>
+    <concept>
+        <code value="P01AB01"/>
+        <display value="Metronidazolo"/>
+    </concept>
+    <concept>
+        <code value="A16AX06"/>
+        <display value="Micofenolato mofetile"/>
+    </concept>
+    <concept>
+        <code value="N06AX11"/>
+        <display value="Miglustat"/>
+    </concept>
+    <concept>
+        <code value="R03DC03"/>
+        <display value="Mirtazapina"/>
+    </concept>
+    <concept>
+        <code value="N02AA01"/>
+        <display value="Montelukast"/>
+    </concept>
+    <concept>
+        <code value="J01MA14"/>
+        <display value="Morfina solfato"/>
+    </concept>
+    <concept>
+        <code value="C02AC05"/>
+        <display value="Moxifloxacina"/>
+    </concept>
+    <concept>
+        <code value="N07BB04"/>
+        <display value="Moxonidina"/>
+    </concept>
+    <concept>
+        <code value="M01AE02"/>
+        <display value="Naltrexone"/>
+    </concept>
+    <concept>
+        <code value="C07AB12"/>
+        <display value="Naprossene"/>
+    </concept>
+    <concept>
+        <code value="C07BB12"/>
+        <display value="Nebivololo"/>
+    </concept>
+    <concept>
+        <code value="C08CA05"/>
+        <display value="Nebivololo + Idroclorotiazide"/>
+    </concept>
+    <concept>
+        <code value="M01AX17"/>
+        <display value="Nifedipina"/>
+    </concept>
+    <concept>
+        <code value="A16AX04"/>
+        <display value="Nimesulide"/>
+    </concept>
+    <concept>
+        <code value="J01XE01"/>
+        <display value="Nitisinone"/>
+    </concept>
+    <concept>
+        <code value="C01DA02"/>
+        <display value="Nitrofurantoina"/>
+    </concept>
+    <concept>
+        <code value="J01MA06"/>
+        <display value="Nitroglicerina"/>
+    </concept>
+    <concept>
+        <code value="H01CB02"/>
+        <display value="Norfloxacina"/>
+    </concept>
+    <concept>
+        <code value="N05AH03"/>
+        <display value="Octreotide"/>
+    </concept>
+    <concept>
+        <code value="C09DX03"/>
+        <display value="Olanzapina"/>
+    </concept>
+    <concept>
+        <code value="C09CA08"/>
+        <display value="Olmesartan medoximil + Amlodipina + Idroclorotiazide"/>
+    </concept>
+    <concept>
+        <code value="C09DB02"/>
+        <display value="Olmesartan medoxomil"/>
+    </concept>
+    <concept>
+        <code value="C09DA08"/>
+        <display value="Olmesartan medoxomil + Amlodipina"/>
+    </concept>
+    <concept>
+        <code value="C10AX06"/>
+        <display value="Olmesartan medoxomil + Idroclorotiazide"/>
+    </concept>
+    <concept>
+        <code value="A02BC01"/>
+        <display value="Omega polienoici (esteri etilici di acidi grassi polinsaturi)"/>
+    </concept>
+    <concept>
+        <code value="A04AA01"/>
+        <display value="Omeprazolo"/>
+    </concept>
+    <concept>
+        <code value="G04BD04"/>
+        <display value="Ondansetrone"/>
+    </concept>
+    <concept>
+        <code value="N02AA05"/>
+        <display value="Ossibutinina cloridrato"/>
+    </concept>
+    <concept>
+        <code value="N02AA55"/>
+        <display value="Ossicodone (oxicodone) cloridrato"/>
+    </concept>
+    <concept>
+        <code value="N02AJ17"/>
+        <display value="Ossicodone (oxicodone) cloridrato/naloxone cloridrato diidrato"/>
+    </concept>
+    <concept>
+        <code value="N03AF02"/>
+        <display value="Ossicodone (oxicodone) cloridrato/paracetamolo"/>
+    </concept>
+    <concept>
+        <code value="N05AX13"/>
+        <display value="Oxcarbazepina"/>
+    </concept>
+    <concept>
+        <code value="A02BC02"/>
+        <display value="Paliperidone"/>
+    </concept>
+    <concept>
+        <code value="H05BX02"/>
+        <display value="Pantoprazolo"/>
+    </concept>
+    <concept>
+        <code value="N02AJ06"/>
+        <display value="Paracalcitolo"/>
+    </concept>
+    <concept>
+        <code value="A07AA06"/>
+        <display value="Paracetamolo+Codeina fosfato"/>
+    </concept>
+    <concept>
+        <code value="N06AB05"/>
+        <display value="Paromicina"/>
+    </concept>
+    <concept>
+        <code value="C09AA04"/>
+        <display value="Paroxetina"/>
+    </concept>
+    <concept>
+        <code value="C09BB04"/>
+        <display value="Perindopril"/>
+    </concept>
+    <concept>
+        <code value="C09BA04"/>
+        <display value="Perindopril + Amlodipina"/>
+    </concept>
+    <concept>
+        <code value="C09BX01"/>
+        <display value="Perindopril + indapamide"/>
+    </concept>
+    <concept>
+        <code value="A10BG03"/>
+        <display value="Perindopril + Indapamide + Amlodipina"/>
+    </concept>
+    <concept>
+        <code value="A10BD05"/>
+        <display value="Pioglitazone"/>
+    </concept>
+    <concept>
+        <code value="J01CA12"/>
+        <display value="Pioglitazone + Metformina"/>
+    </concept>
+    <concept>
+        <code value="J01CR05"/>
+        <display value="Piperacillina"/>
+    </concept>
+    <concept>
+        <code value="M01AC01"/>
+        <display value="Piperacillina + Tazobactam"/>
+    </concept>
+    <concept>
+        <code value="J02AC04"/>
+        <display value="Piroxicam"/>
+    </concept>
+    <concept>
+        <code value="C03DA02"/>
+        <display value="Posaconazolo"/>
+    </concept>
+    <concept>
+        <code value="N04BC05"/>
+        <display value="Potassio canrenoato"/>
+    </concept>
+    <concept>
+        <code value="B01AC22"/>
+        <display value="Pramipexolo"/>
+    </concept>
+    <concept>
+        <code value="C10AA03"/>
+        <display value="Prasugrel"/>
+    </concept>
+    <concept>
+        <code value="H02AB07"/>
+        <display value="Pravastatina"/>
+    </concept>
+    <concept>
+        <code value="N02BF02"/>
+        <display value="Prednisone"/>
+    </concept>
+    <concept>
+        <code value="G03DA04"/>
+        <display value="Pregabalin"/>
+    </concept>
+    <concept>
+        <code value="C01BC03"/>
+        <display value="Progesterone"/>
+    </concept>
+    <concept>
+        <code value="N05AH04"/>
+        <display value="Propafenone"/>
+    </concept>
+    <concept>
+        <code value="C09AA06"/>
+        <display value="Quetiapina"/>
+    </concept>
+    <concept>
+        <code value="C09BA06"/>
+        <display value="Quinapril"/>
+    </concept>
+    <concept>
+        <code value="A02BC04"/>
+        <display value="Quinapril + Idroclorotiazide"/>
+    </concept>
+    <concept>
+        <code value="G03XC01"/>
+        <display value="Rabeprazolo"/>
+    </concept>
+    <concept>
+        <code value="C09AA05"/>
+        <display value="Raloxifene"/>
+    </concept>
+    <concept>
+        <code value="C09BX03"/>
+        <display value="Ramipril"/>
+    </concept>
+    <concept>
+        <code value="C09BA05"/>
+        <display value="Ramipril + Amlodipina + Idroclorotiazide"/>
+    </concept>
+    <concept>
+        <code value="C09BB07"/>
+        <display value="Ramipril + Idroclorotiazide"/>
+    </concept>
+    <concept>
+        <code value="C01EB18"/>
+        <display value="Ramipril/Amlodipina"/>
+    </concept>
+    <concept>
+        <code value="N04BD02"/>
+        <display value="Ranolazina"/>
+    </concept>
+    <concept>
+        <code value="A10BX02"/>
+        <display value="Rasagilina"/>
+    </concept>
+    <concept>
+        <code value="N07XX02"/>
+        <display value="Repaglinide"/>
+    </concept>
+    <concept>
+        <code value="N05AX08"/>
+        <display value="Riluzolo"/>
+    </concept>
+    <concept>
+        <code value="N06DA03"/>
+        <display value="Risperidone"/>
+    </concept>
+    <concept>
+        <code value="N02CC04"/>
+        <display value="Rivastigmina"/>
+    </concept>
+    <concept>
+        <code value="N04BC04"/>
+        <display value="Rizatriptan"/>
+    </concept>
+    <concept>
+        <code value="C10AA07"/>
+        <display value="Ropinirolo"/>
+    </concept>
+    <concept>
+        <code value="C10BX09"/>
+        <display value="Rosuvastatina"/>
+    </concept>
+    <concept>
+        <code value="C10BA06"/>
+        <display value="Rosuvastatina (sale di calcio) + Amlodipina"/>
+    </concept>
+    <concept>
+        <code value="R06AX28"/>
+        <display value="Rosuvastatina + Ezetimibe"/>
+    </concept>
+    <concept>
+        <code value="R03AC02"/>
+        <display value="Rupatadina"/>
+    </concept>
+    <concept>
+        <code value="R03AL02"/>
+        <display value="Salbutamolo"/>
+    </concept>
+    <concept>
+        <code value="R03AC12"/>
+        <display value="Salbutamolo + Ipratropio bromuro"/>
+    </concept>
+    <concept>
+        <code value="R03AK06"/>
+        <display value="Salmeterolo"/>
+    </concept>
+    <concept>
+        <code value="A16AX07"/>
+        <display value="Salmeterolo/fluticasone"/>
+    </concept>
+    <concept>
+        <code value="N04BD01"/>
+        <display value="Sapropterina"/>
+    </concept>
+    <concept>
+        <code value="N06AB06"/>
+        <display value="Selegilina"/>
+    </concept>
+    <concept>
+        <code value="V03AE02"/>
+        <display value="Sertralina"/>
+    </concept>
+    <concept>
+        <code value="G04BE03"/>
+        <display value="Sevelamer"/>
+    </concept>
+    <concept>
+        <code value="G04CA04"/>
+        <display value="Sildenafil"/>
+    </concept>
+    <concept>
+        <code value="C10AA01"/>
+        <display value="Silodosina"/>
+    </concept>
+    <concept>
+        <code value="A10BH01"/>
+        <display value="Simvastatina"/>
+    </concept>
+    <concept>
+        <code value="A10BD07"/>
+        <display value="Sitagliptin"/>
+    </concept>
+    <concept>
+        <code value="B05BB01"/>
+        <display value="Sitagliptin + Metformina"/>
+    </concept>
+    <concept>
+        <code value="M05BA06"/>
+        <display value="Sodio cloruro"/>
+    </concept>
+    <concept>
+        <code value="M05BA07"/>
+        <display value="Sodio ibandronato"/>
+    </concept>
+    <concept>
+        <code value="G04BD08"/>
+        <display value="Sodio risedronato"/>
+    </concept>
+    <concept>
+        <code value="C07AA07"/>
+        <display value="Solifenacina"/>
+    </concept>
+    <concept>
+        <code value="J01FA02"/>
+        <display value="Sotalolo"/>
+    </concept>
+    <concept>
+        <code value="C03DA01"/>
+        <display value="Spiramicina"/>
+    </concept>
+    <concept>
+        <code value="A02BX02"/>
+        <display value="Spironolattone"/>
+    </concept>
+    <concept>
+        <code value="N02CC01"/>
+        <display value="Sucralfato"/>
+    </concept>
+    <concept>
+        <code value="D11AH01"/>
+        <display value="Sumatriptan"/>
+    </concept>
+    <concept>
+        <code value="L04AD02"/>
+        <display value="Tacrolimus"/>
+    </concept>
+    <concept>
+        <code value="G04BE08"/>
+        <display value="Tadalafil"/>
+    </concept>
+    <concept>
+        <code value="L02BA01"/>
+        <display value="Tamoxifene"/>
+    </concept>
+    <concept>
+        <code value="G04CA02"/>
+        <display value="Tamsulosina"/>
+    </concept>
+    <concept>
+        <code value="J01XA02"/>
+        <display value="Teicoplanina"/>
+    </concept>
+    <concept>
+        <code value="C09CA07"/>
+        <display value="Telmisartan"/>
+    </concept>
+    <concept>
+        <code value="C09DA07"/>
+        <display value="Telmisartan + Idroclorotiazide"/>
+    </concept>
+    <concept>
+        <code value="L01AX03"/>
+        <display value="Temozolomide"/>
+    </concept>
+    <concept>
+        <code value="G04CA03"/>
+        <display value="Terazosina"/>
+    </concept>
+    <concept>
+        <code value="C02CA"/>
+        <display value="Terbinafina"/>
+    </concept>
+    <concept>
+        <code value="D01BA02"/>
+        <display value="Teriflunomide"/>
+    </concept>
+    <concept>
+        <code value="L04AA31"/>
+        <display value="Teriparatide"/>
+    </concept>
+    <concept>
+        <code value="H05AA02"/>
+        <display value="Tetrabenazina"/>
+    </concept>
+    <concept>
+        <code value="N07XX06"/>
+        <display value="Tibolone"/>
+    </concept>
+    <concept>
+        <code value="G03CX01"/>
+        <display value="Ticlopidina"/>
+    </concept>
+    <concept>
+        <code value="B01AC05"/>
+        <display value="Timololo"/>
+    </concept>
+    <concept>
+        <code value="S01ED01"/>
+        <display value="Tiotropio"/>
+    </concept>
+    <concept>
+        <code value="R03BB04"/>
+        <display value="Tobramicina"/>
+    </concept>
+    <concept>
+        <code value="J01GB01"/>
+        <display value="Tolvaptan"/>
+    </concept>
+    <concept>
+        <code value="C03XA01"/>
+        <display value="Topiramato"/>
+    </concept>
+    <concept>
+        <code value="N03AX11"/>
+        <display value="Torasemide"/>
+    </concept>
+    <concept>
+        <code value="C03CA04"/>
+        <display value="Tramadolo cloridrato"/>
+    </concept>
+    <concept>
+        <code value="N02AX02"/>
+        <display value="Trandolapril"/>
+    </concept>
+    <concept>
+        <code value="C09AA10"/>
+        <display value="Travoprost"/>
+    </concept>
+    <concept>
+        <code value="S01EE04"/>
+        <display value="Travoprost + Timololo"/>
+    </concept>
+    <concept>
+        <code value="J05AB11"/>
+        <display value="Valaciclovir"/>
+    </concept>
+    <concept>
+        <code value="J05AB14"/>
+        <display value="Valganciclovir"/>
+    </concept>
+    <concept>
+        <code value="C09CA03"/>
+        <display value="Valsartan"/>
+    </concept>
+    <concept>
+        <code value="C09DA03"/>
+        <display value="Valsartan + Idroclorotiazide"/>
+    </concept>
+    <concept>
+        <code value="G04BE09"/>
+        <display value="Vardenafil"/>
+    </concept>
+    <concept>
+        <code value="N06AX16"/>
+        <display value="Venlafaxina"/>
+    </concept>
+    <concept>
+        <code value="C08DA01"/>
+        <display value="Verapamil"/>
+    </concept>
+    <concept>
+        <code value="A10BH02"/>
+        <display value="Vildagliptin"/>
+    </concept>
+    <concept>
+        <code value="A10BD08"/>
+        <display value="Vildagliptin + Metformina"/>
+    </concept>
+    <concept>
+        <code value="L01CA04"/>
+        <display value="Vinorelbina"/>
+    </concept>
+    <concept>
+        <code value="J02AC03"/>
+        <display value="Voriconazolo"/>
+    </concept>
+    <concept>
+        <code value="C09AA15"/>
+        <display value="Zofenopril"/>
+    </concept>
+    <concept>
+        <code value="C09BA15"/>
+        <display value="Zofenopril + Idroclorotiazide"/>
+    </concept>
+    <concept>
+        <code value="N02CC03"/>
+        <display value="Zolmitriptan"/>
+    </concept>
+    <concept>
+        <code value="N03AX15"/>
+        <display value="Zonisamide"/>
+    </concept>    
+</CodeSystem>
