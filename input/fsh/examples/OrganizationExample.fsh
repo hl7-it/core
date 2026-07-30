@@ -5,11 +5,11 @@ Description: "Esempio di organizzazione ospedaliera rappresentata tramite il pro
 Usage: #example
 
 * id = "606860f9-cd4e-494d-b550-85e7856d6746"
-* identifier[aslRegione].system = "urn:oid:2.16.840.1.113883.2.9.4.1.1"
+* identifier[aslRegione].system = $cs-aslRegione 
 * identifier[aslRegione].value = #120202
-* identifier[struttura].system = "urn:oid:2.16.840.1.113883.2.9.4.1.2"
+* identifier[struttura].system = $cs-aziendaOspedaliera
 * identifier[struttura].value = #120902
-* identifier[partitaIva].system = "urn:oid:2.16.840.1.113883.2.9.6.3.2"
+* identifier[partitaIva].system = $CF
 * identifier[partitaIva].value = "04735061006"
 * type = $CS-tipoEntita#ao "Azienda Opedaliera"
 * name = "Azienda Ospedaliera San Giovanni Addolorata"
@@ -30,7 +30,7 @@ Description: "Esempio di organizzazione ASL rappresentata tramite il profilo Org
 
 
 * id = "3c75bf31-bd32-4c0f-9e4a-585d20c08ce4"
-* identifier[aslRegione].system = "urn:oid:2.16.840.1.113883.2.9.4.1.1"
+* identifier[aslRegione].system = $cs-aslRegione
 * identifier[aslRegione].value = #120202
 * active = 	true
 * type = $CS-tipoEntita#asl "Azienda Sanitaria Locale"

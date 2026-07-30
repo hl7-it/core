@@ -5,11 +5,11 @@ Description: "Esempio di farmaco per il diabete (Metformina) rappresentato trami
 Usage: #example
 
 * id = "81595685-1c77-497e-beab-fad8ca297c27"
-* code.coding[AIC].system = "urn:oid:2.16.840.1.113883.2.9.6.1.5"
-* code.coding[AIC].code = #045018064 
+* code.coding[AIC].system = $cs-aifaAIC
+* code.coding[AIC].code = $cs-aifaAIC#045018064 
 * code.coding[AIC].display = "850 MG COMPRESSE RIVESTITE CON FILM 28 COMPRESSE IN BLISTER PVC/AL"
 
-* code.coding[ATC].system = "urn:oid:2.16.840.1.113883.6.73"
+* code.coding[ATC].system = $cs-whoatc
 * code.coding[ATC].code = $cs-whoatc#A10BA02 "Metformina"
 
 * status = #active

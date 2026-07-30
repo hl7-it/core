@@ -20,9 +20,10 @@ Description: "Questo profilo definisce una persona direttamente o indirettamente
 * identifier[codiceFiscale]
 * identifier[codiceFiscale] ^short = "Codice Fiscale del professionista sanitario o della persona coinvolta nella procedura sanitaria."
 * identifier[codiceFiscale].system 1..
-* identifier[codiceFiscale].system = "urn:oid:2.16.840.1.113883.2.9.4.3.2" 
+* identifier[codiceFiscale].system = $CF 
 * identifier[codiceFiscale].value 1..
 * identifier[codiceFiscale].assigner only Reference(OrganizationItCore)
+* identifier[codiceFiscale].value ^short = "Valorizzazione del Codice Fiscale"
 
 //----------------------ID Regionale-----------------------
 // * identifier[idRegionale]
@@ -35,8 +36,9 @@ Description: "Questo profilo definisce una persona direttamente o indirettamente
 * identifier[codiceANA]
 * identifier[codiceANA] ^short = "Codice ANA del professionista sanitario o della persona coinvolta."
 * identifier[codiceANA].system 1..
-* identifier[codiceANA].system = "urn:oid:2.16.840.1.113883.2.9.4.3.15"
+* identifier[codiceANA].system = $ANA
 * identifier[codiceANA].value 1..
+* identifier[codiceANA].value ^short = "Valorizzazione del codice ANA"
 * identifier[codiceANA].assigner only Reference(OrganizationItCore)
 
 //----------------------Altro------------------------------

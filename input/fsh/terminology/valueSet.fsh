@@ -5,11 +5,13 @@ Id: vs-add-use-it
 Title: "Address use"
 Description: "Insieme dei valori ammessi per qualificare **address.use**, ossia il tipo di utilizzo di un indirizzo."
 * ^experimental = false
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.4.642.4.68"
 
 * $cs-addr-use-org#home "Residenza"
 * $cs-addr-use-org#work "Lavoro"
 * $cs-addr-use-org#temp "Domicilio temporaneo"
-* $cs-addr-use-org#old  "old"
+* $cs-addr-use-org#old "old"
 * $cs-addr-use-org#billing "Indirizzo di Fatturazione"
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -18,6 +20,8 @@ Id: vs-role-code-it
 Title: "Role Code"
 Description: "Insieme di codici che identificano il ruolo professionale svolto da un operatore sanitario all'interno dei sistemi sanitari e nei flussi informativi."
 * ^experimental = false
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.5.1.111"
 * include codes from system $cs-role-it
 
 * ^expansion.timestamp = "2024-06-01T12:00:00Z"
@@ -79,7 +83,7 @@ Description: "Insieme di codici che identificano il ruolo professionale svolto d
 ValueSet: VsEsenzionieNE
 Id: vs-esenzione-ne
 Title: "Codici Esenzione"
-Description: "ValueSet che raccoglie i codici di esenzione dal ticket sanitario previsti dal **Servizio Sanitario Nazionale** per condizioni reddituali, invalidità e particolari situazioni assistenziali."
+Description: "ValueSet dal MdS che raccoglie i codici di esenzione dal ticket sanitario previsti dal **Servizio Sanitario Nazionale** per condizioni reddituali, invalidità e particolari situazioni assistenziali."
 * ^experimental = false
 
 * include codes from system CsEsenzioni
@@ -91,7 +95,8 @@ Id: vs-struttura-azienda
 Title: "identificativi per le Aziende Ospedaliere o Strutture di Ricovero (HSP 11)"
 Description: "ValueSet che raccoglie i codici identificativi delle strutture di ricovero pubbliche e private accreditate del **Servizio Sanitario Nazionale**, incluse le relative caratteristiche organizzative e territoriali."
 * ^experimental = false
-
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.4.1.2"
 * include codes from system http://hl7.it/fhir/itcore/CodeSystem/minsan-hsp
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -114,6 +119,8 @@ Id: vs-whoatc
 Title: "WHO ATC"
 Description: "ValueSet che raccoglie i codici della classificazione ATC utilizzati per identificare e classificare i medicinali."
 * ^experimental = false
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.6.73"
 * insert ATCCopyrightForVS
 * codes from system $cs-whoatc
 
@@ -123,6 +130,8 @@ Id: vs-aifa-ge
 Title: "AIFA - Gruppi di Equivalenza"
 Description: "ValueSet che raccoglie i codici dei gruppi di equivalenza farmaceutica utilizzati per identificare medicinali considerati terapeuticamente equivalenti."
 * ^experimental = false
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.6.1.51"
 * include codes from system $cs-aifa-ge
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -131,6 +140,8 @@ Id: vs-mds-asl
 Title: "MDS - ASL"
 Description: "ValueSet che raccoglie i codici delle Aziende Sanitarie Locali e degli enti territoriali del **Servizio Sanitario Nazionale**."
 * ^name = "ValuesetMinisteroDellaSalute_IDASL"
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.4.1.1"
 * ^experimental = false
 * include codes from system CSMdsAsl
 
@@ -140,7 +151,8 @@ Id: vs-strutturaInterna
 Title: "MDS - Strutture Interne"
 Description: "ValueSet che raccoglie gli identificativi delle strutture interne di ricovero, quali ospedali, presidi ospedalieri e unità operative, afferenti alle strutture sanitarie censite dal **Ministero della Salute**."
 * ^experimental = false
-
+// * ^identifier.system = "urn:ietf:rfc:3986"
+// * ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.4.1.2"
 * include codes from system CsMDSIdStruttureInterne
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -149,7 +161,6 @@ Id: vs-tipo-organizzazione
 Title: "MDS - Tipologia Organizzazione Socio Sanitaria"
 Description: "ValueSet che raccoglie i codici delle tipologie di entità organizzative e istituzionali coinvolte nei processi sanitari e amministrativi, incluse amministrazioni pubbliche, strutture sanitarie e soggetti erogatori."
 * ^experimental = false
-
 
 * $CS-tipoEntita#as "Azienda Sanitaria"
 * $CS-tipoEntita#asl "Azienda Sanitaria Locale"
@@ -542,6 +553,8 @@ Id: vs-istatcomune
 Title: "ISTAT - Codici dei Comuni"
 Description: "ValueSet che raccoglie i codici ISTAT dei comuni italiani utilizzati per l’identificazione univoca delle entità territoriali comunali."
 * ^experimental = false
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.4.2.3"
 
 * include codes from system $cs-istat-comune
 
@@ -8447,6 +8460,10 @@ Id: vs-minsan-regione
 Title: "Ministero della Salute - Codici Regioni / PPAA"
 Description: "ValueSet che raccoglie i codici delle Regioni e delle Province Autonome italiane utilizzati dal **Ministero della Salute** per l’identificazione delle entità territoriali del **Servizio Sanitario Nazionale**."
 * ^experimental = false
+
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.4.2.1"
+
 * include codes from system CsMinSanRegioni
 
 * ^expansion.timestamp = "2024-06-05T12:00:00Z"
@@ -8562,7 +8579,8 @@ Id: vs-istat-cittadinanza
 Title: "ISTAT - Cittadinanza"
 Description: "ValueSet che raccoglie i codici ISTAT per la cittadinanza; Eurostat. Regolamento 2017/543 del 22 marzo 2017"
 * ^experimental = false
-
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.6.2.5"
 * $cs-istat-statoNascita#100 "Italia"
 * $cs-istat-statoNascita#201 "Albania"
 * $cs-istat-statoNascita#202 "Andorra"
@@ -8774,7 +8792,8 @@ Id: vs-istatprofessioni
 Title: "ISTAT - Professioni"
 Description: "Valueset che raccoglie i codici per la classificazione delle professioni."
 * ^experimental = false
-
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.6.2.3"
 * include codes from system $cs-istatprofessione
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -8784,7 +8803,8 @@ Id: vs-istat-titoloStudio
 Title: "ISTAT - Titoli di studio"
 Description: "ValueSet che raccoglie i codici ISTAT dei titoli di studio italiani."
 * ^experimental = false
-
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.6.2.1"
 * include codes from system $cs-titoloStudio
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -8823,6 +8843,16 @@ Id: vs-istat-provincia
 Title: "ISTAT - Codici Province"
 Description: "ValueSet che raccoglie i codici ISTAT delle province italiane utilizzati per l’identificazione standardizzata delle entità territoriali provinciali."
 * ^experimental = false
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.4.2.2"
 * include codes from system $cs-provincia
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ValueSet: VsAifaAic
+Id: aifa-aic
+Title: "AIC - Autorizzazione Immissione in Commercio"
+Description: "ValueSet che comprende i codici di Autorizzazione all'Immissione in Commercio (AIC) definiti da AIFA. Poiché il sistema di codifica è gestito da AIFA, l'elenco completo dei codici deve essere reperito tramite le fonti ufficiali di AIFA"
+* ^experimental = false
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.6.1.5"
+* include codes from system $cs-aifaAIC

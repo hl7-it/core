@@ -21,28 +21,30 @@ Description: "Rappresentazione del medicinale tramite il profilo Medication"
 * code.coding[AIC]
 * code.coding[AIC] ^short = "Codice AIC del farmaco"
 * code.coding[AIC].system 1..
-* code.coding[AIC].system = "urn:oid:2.16.840.1.113883.2.9.6.1.5" 
+* code.coding[AIC].system = $cs-aifaAIC 
+* code.coding[AIC].code from $vs-aifaAIC (preferred)
 * code.coding[AIC].code 1..
 * code.coding[AIC].code ^short = "Codice AIC del farmaco"
 //----------------------ATC-----------------------
 * code.coding[ATC]
 * code.coding[ATC] ^short = "Codice ATC del farmaco"
 * code.coding[ATC].system 1..
-* code.coding[ATC].system = "urn:oid:2.16.840.1.113883.6.73"
+* code.coding[ATC].system = $cs-whoatc
 * code.coding[ATC].code 1..
-* code.coding[ATC].code from $vs-whoatc
+* code.coding[ATC].code from $vs-whoatc (required)
 * code.coding[ATC].code ^short = "Codice ATC del farmaco"
 //----------------------Gruppo Equivalenza---------------------
 * code.coding[GruppoEquivalenza]
 * code.coding[GruppoEquivalenza] ^short = "Gruppo di equivalenza del farmaco"
 * code.coding[GruppoEquivalenza].system 1..
-* code.coding[GruppoEquivalenza].system = "urn:oid:2.16.840.1.113883.2.9.6.1.51"
+* code.coding[GruppoEquivalenza].system = $cs-aifa-ge
 * code.coding[GruppoEquivalenza].code 1..
-* code.coding[GruppoEquivalenza].code from VsAifaGE
+* code.coding[GruppoEquivalenza].code from $vs-aifa-ge (required)
 * code.coding[GruppoEquivalenza].code ^short = "Codice del gruppo di equivalenza del farmaco"
 //----------------------Altro-----------------------
 * code.coding[altro] ^short = "Qualora il codice del farmaco/integratore non ricada in nessuna delle precedenti alternative, è possibile utilizzare la slice 'altro'"
-* code.coding[altro].system from $vs-nullFlavor
+* code.coding[altro].code from $vs-nullFlavor
+* code.coding[altro].system = $cs-nullFlavor
 * code.coding[altro].code 1..
 * code.coding[altro].extension contains $ext-originalText named descrizione 0..1
 * code.coding[altro].extension[descrizione] ^short = "Descrizione specifica per il farmaco che non rientra nelle codifiche AIC/ATC/GE"

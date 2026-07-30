@@ -27,7 +27,6 @@ Description: "Rappresentazione del paziente tramite il profilo Patient"
 * extension[cittadinanza] ^short = "Cittadinanza"
 * extension[cittadinanza] ^definition = "Indica la cittadinanza del cittadino attraverso lo stato di provenienza"
 * extension[nazionalita] ^binding.strength = #example
-// * extension[nazionalita] ^binding.valueSet = Inserire la il valuset di appartenenza
 * extension[nazionalita] ^short = "nazionalita"
 * extension[professione] ^binding.strength = #preferred
 * extension[professione] ^binding.valueSet = $vs-istat-professione
@@ -62,42 +61,50 @@ Description: "Rappresentazione del paziente tramite il profilo Patient"
     tesseraTEAM 0..1 and
     codiceSTP 0..1 and
     altro 0..1
+//----------codice Fiscale--------------------------------------
 * identifier[codiceFiscale] ^short = "Codice Fiscale."
 * identifier[codiceFiscale].system ^short = "Namespace per il valore dell'identifier."
 * identifier[codiceFiscale].system 1.. 
-* identifier[codiceFiscale].system = "urn:oid:2.16.840.1.113883.2.9.4.3.2"
-* identifier[codiceFiscale].value ^short = "Valore dell'identifier."
+* identifier[codiceFiscale].system = $CF
+* identifier[codiceFiscale].value ^short = "Valorizzazione del Codice Fiscale del paziente."
 * identifier[codiceFiscale].value 1..1
+//----------codice ANPR-----------------------------------------
 * identifier[anpr] ^short = "Identificativo del paziente nell'Anagrafe nazionale della popolazione residente."
 * identifier[anpr].system ^short = "Namespace per il valore dell'identifier."
 * identifier[anpr].system 1..  
 * identifier[anpr].value 1..1
-* identifier[anpr].system = "urn:oid:2.16.840.1.113883.2.9.4.3.16"
-// * identifier[idRegionale] ^short = "Identificativo Regionale."
-// * identifier[idRegionale].system ^short = "Namespace per il valore dell'identifier."
-// * identifier[idRegionale].system 1..  
-// * identifier[idRegionale].system = $uri
+* identifier[anpr].value ^short = "Valorizzazione del Codice ANPR"
+* identifier[anpr].system = $ANPR
+//----------codice ENI------------------------------------------
 * identifier[codiceENI] ^short = "Codice ENI."
 * identifier[codiceENI].system ^short = "Namespace per il valore dell'identifier."
 * identifier[codiceENI].system 1..
 * identifier[codiceENI].value 1..1  
-* identifier[codiceENI].system = "urn:oid:2.16.840.1.113883.2.9.4.3.18"
+* identifier[codiceENI].value ^short = "Valorizzazione del codice ENI"
+* identifier[codiceENI].system = $ENI
+//---------codice ANA--------------------------------------------
 * identifier[codiceANA] ^short = "Codice ANA."
 * identifier[codiceANA].system ^short = "Namespace per il valore dell'identifier."
-* identifier[codiceANA].system = "urn:oid:2.16.840.1.113883.2.9.4.3.15"
+* identifier[codiceANA].system = $ANA
 * identifier[codiceANA].system 1..
-* identifier[codiceANA].value 1..1    
+* identifier[codiceANA].value 1..1  
+* identifier[codiceANA].value ^short = "Valorizzazione del codice ANA"
+//---------tessera TEAM------------------------------------------
 * identifier[tesseraTEAM] ^short = "Tessera TEAM."
 * identifier[tesseraTEAM].system ^short = "Namespace per il valore dell'identifier."
-* identifier[tesseraTEAM].system = "urn:oid:2.16.840.1.113883.2.9.4.3.7"
+* identifier[tesseraTEAM].system = $TEAM
 * identifier[tesseraTEAM].system 1..
 * identifier[tesseraTEAM].value 1..1  
+* identifier[tesseraTEAM].value ^short = "Valorizzazione del codice TEAM"
+//---------codice STP-------------------------------------------
 * identifier[codiceSTP] ^short = "Codice STP." 
 * identifier[codiceSTP].system ^short = "Namespace per il valore dell'identifier."
 * identifier[codiceSTP].system 1..
 * identifier[codiceSTP].value 1..1
-* identifier[codiceSTP].system = "urn:oid:2.16.840.1.113883.2.9.4.3.17"
+* identifier[codiceSTP].value ^short = "Valorizzazione del codice STP"
+* identifier[codiceSTP].system = $STP
 //* identifier[codiceSTP].system obeys pat-id-stp-1
+//---------altro-------------------------------------------------
 * identifier[altro] ^short = "Qualora l'identifier del patient non ricada in nessuna delle precedenti alternative, è possibile utilizzare la slice 'altro'"
 * identifier[altro].value ^short = "Valore dell'identifier"
 * identifier[altro].system = $oid
