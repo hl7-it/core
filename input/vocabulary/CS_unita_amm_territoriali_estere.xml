@@ -8,7 +8,7 @@
     <caseSensitive value="false"/>
     <description value="ISTAT - Unita Amministrative Territoriali Estere"/>
     <content value="complete"/>
-    <language value="en-US"/>
+    <language value="it-IT"/>
     <filter>
         <code value="continente"/>
         <description value="Permette di ricercare i codici secondo il continente di appartenenza"/>

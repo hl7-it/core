@@ -27,7 +27,9 @@ Description: "Rappresentazione del paziente tramite il profilo Patient"
 * extension[cittadinanza] ^short = "Cittadinanza"
 * extension[cittadinanza] ^definition = "Indica la cittadinanza del cittadino attraverso lo stato di provenienza"
 * extension[nazionalita] ^binding.strength = #example
-* extension[nazionalita] ^short = "nazionalita"
+* extension[nazionalita] ^short = "nazionalità"
+* extension[nazionalita] ^binding.valueSet = $vs-stato
+* extension[nazionalita] ^definition = "Indica la nazionalità del cittadino attraverso lo stato di provenienza"
 * extension[professione] ^binding.strength = #preferred
 * extension[professione] ^binding.valueSet = $vs-istat-professione
 * extension[professione] ^short = "Professione"

@@ -5,3 +5,6 @@
 # See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
 
 The link 'StructureDefinition-narrativeLink.html' for "narrativeLink extension" cannot be resolved
+
+HL7 Defined CodeSystems should ensure that every concept has a definition
+Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://hl7.it/fhir/itcore/CodeSystem/cs-aifa-aic' could not be found, so the value set cannot be expanded

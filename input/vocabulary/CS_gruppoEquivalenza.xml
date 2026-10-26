@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
     <id value="aifa-gruppo-equivalenza"/>
+    <identifier>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:oid:2.16.840.1.113883.2.9.6.1.51"/>
+    </identifier>
     <name value="CsAifaGruppoEquivalenza"/>
     <title value="AIFA - Gruppo di equivalenza"/>
     <status value="active"/>
@@ -8,7 +12,7 @@
     <caseSensitive value="false"/>
     <description value="AIFA - Gruppo di equivalenza"/>
     <content value="complete"/>
-    <language value="en-US"/>
+    <language value="it-IT"/>
     <concept>
         <code value="H0A"/>
         <display value="ACAMPROSATO 333MG 84 UNITA' USO ORALE"/>

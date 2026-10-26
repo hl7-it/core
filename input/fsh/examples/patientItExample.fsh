@@ -31,7 +31,6 @@ Description: "Esempio di Paziente (uomo) iscritto al SSN rappresentato tramite i
 * birthDate = "2006-04-02"
 * deceasedBoolean = false
 * multipleBirthBoolean = false
-* photo.hash = "616662666464c6c7"
 
 * contact.relationship.text = "Padre"
 * contact.name.family = "Verdi"
@@ -83,7 +82,6 @@ Description: "Esempio di Paziente (donna) iscritta al SSN rappresentato tramite 
 * birthDate = "1999-02-25"
 * deceasedBoolean = false
 * multipleBirthBoolean = false
-* photo.hash = "616662333464c6c7"
 * contact.relationship.text = "Padre"
 * contact.name.family = "Bianchi"
 * contact.name.given = "Marco"

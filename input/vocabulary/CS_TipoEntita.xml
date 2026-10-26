@@ -10,7 +10,7 @@
 	<caseSensitive value="true"/>
 	<hierarchyMeaning value="is-a"/>
 	<content value="complete"/>
-	<language value="en-US"/>
+	<language value="it-IT"/>
 	<concept>
 		<code value="gov"/>
 		<display value="Ministero od Agenzia governativa"/>

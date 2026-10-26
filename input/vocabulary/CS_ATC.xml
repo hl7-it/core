@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
     <id value="aifa-atc"/>
+    <identifier>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:oid:2.16.840.1.113883.6.73"/>
+    </identifier>
     <name value="CsAtcPrincipio"/>
     <title value="AIFA - ATC"/>
     <status value="active"/>
@@ -8,7 +12,7 @@
     <caseSensitive value="false"/>
     <description value="AIFA - ATC"/>
     <content value="complete"/>
-    <language value="en-US"/>
+    <language value="it-IT"/>
     <concept>
         <code value="A10BF01"/>
         <display value="Acarbosio"/>

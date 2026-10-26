@@ -33,7 +33,9 @@ Description: "MDS - Codici per l'esezione dal ticket"
 * ^experimental = false
 * ^status = #active
 * ^caseSensitive = true
-* ^language = #en-US
+* ^language = #it
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.6.1.22"
 
 * #E01 "Cittadini di età inferiore a 6 anni e superiore a 65 anni, appartenenti ad un nucleo familiare con reddito annuo complessivo non superiore a 36.151,98 euro."
 * #E02 "Disoccupati e loro familiari a carico appartenenti ad un nucleo familiare con un reddito annuo complessivo inferiore a 8.263,31 euro, incrementato fino a 11.362,05 euro in presenza del coniuge ed in ragione di ulteriori 516,46 euro per ogni figlio a carico."
@@ -70,7 +72,9 @@ Description: "ValueSet che raccoglie i codici delle Aziende Sanitarie Locali e d
 * ^publisher = "pnt.gov.it"
 * ^caseSensitive = true
 * ^content = #complete
-* ^language = #en-US
+* ^language = #it
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.4.1.1"
 
 * #010203 "TO3"
 * #010204 "TO4"
@@ -189,11 +193,11 @@ CodeSystem: CsMDSIdStruttureInterne
 Id: cs-mds-idStruttureInterne
 Title: "MDS - ID Strutture Interne di Ricovero"
 Description: "MDS - Identificativi Strutture Interne di Ricovero"
-//-------------------------------------------------------------------------------------------
+
 * ^experimental = false
 * ^status = #active
 * ^caseSensitive = true 
-* ^language = #en-US
+* ^language = #it
 
 * #010030.01 "OSPEDALE CIVILE E.AGNELLI"
 * #010030.03 "OSPEDALE DI POMARETTO"
@@ -659,6 +663,7 @@ Title: "ISTAT - Registro delle Denominazioni Urbanistiche Generiche (DUG)"
 Description: "ISTAT - Registro delle Denominazioni Urbanistiche Generiche (DUG)"
 * ^experimental = false
 * ^caseSensitive = true 
+* ^language = #it
 * #1 "arco"
 * #2 "autostrada"
 * #3 "belvedere"
@@ -755,6 +760,9 @@ Title: "Ministero della Salute - Codici Regioni / PPAA"
 Description: "Ministero della Salute - Codici Regioni / Province Autonome usati nei file FLS11."
 * ^experimental = false
 * ^caseSensitive = true
+* ^language = #it
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.4.2.1"
 
 * #010	"PIEMONTE"
 * #020	"VALLE D'AOSTA"
@@ -785,6 +793,9 @@ Title: "HL7 Italia - HL7 V3 RoleCode (estensione)"
 Description: "Estensione del Vocabolario HL7 V3 RoleCode"
 * ^experimental = false
 * ^caseSensitive = true 
+* ^language = #it
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.5.1.111"
 
 * #MMG  "medico di medicina generale"
 * #PLS  "pediatra di libera scelta"
@@ -805,11 +816,13 @@ CodeSystem: CsProvinceISTAT
 Id: cs-province-istat
 Title: "ISTAT - Province"
 Description: "ISTAT - Province"
-
 * ^content = #complete
 * ^experimental = true
 * ^caseSensitive = true
-* ^language = #en 
+* ^language = #it
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.4.2.2"
+
 * #001	"Torino"
 * #002	"Vercelli"
 * #003	"Novara"
@@ -925,6 +938,8 @@ Title: "AIFA - Autorizzazione Immissione in Commercio"
 Description: "Sistema di codifica AIC (Autorizzazione all'Immissione in Commercio) gestito da AIFA. Questo CodeSystem è dichiarato esclusivamente a fini di interoperabilità e non include i concetti. I codici validi devono essere reperiti attraverso le fonti ufficiali pubblicate dall'Agenzia Italiana del Farmaco."
 * ^experimental = false
 * ^caseSensitive = true
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.6.1.5"
 * ^content = #not-present //si rinvia a https://www.aifa.gov.it/
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

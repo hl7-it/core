@@ -40,5 +40,5 @@ Usage: #example
 * gender = #female
 * birthDate = "1975-02-05"
 * qualification.code = $cs-titoloStudio#40102014 "Tecnico di radiologia medica"
-* communication.coding.code = #it
+
 

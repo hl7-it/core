@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">	
 	<id value="istat-professioni"/>	
+	<identifier>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:oid:2.16.840.1.113883.2.9.6.2.3"/>
+    </identifier>
 	<version value="0.1.0"/>
 	<name value="CsIstatProfessioni"/>
 	<title value="ISTAT - Classificazione delle professioni"/>
@@ -9,7 +13,7 @@
 	<caseSensitive value="false"/>
 	<description value="ISTAT - Classificazione delle professioni"/>
 	<content value="complete"/>
-	<language value="en-US"/>
+	<language value="it-IT"/>
 	<hierarchyMeaning value="is-a"/>
 	<concept>
 		<code value="1"/>

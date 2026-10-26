@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir C:/Ruby26-x64/msys64/home/giorg/_github/fhir-all-xsd/codesystem.xsd">
 	<id value="istat-ctsi03"/>
+	<identifier>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:oid:2.16.840.1.113883.2.9.6.2.1"/>
+    </identifier>
 	<text>
 		<status value="generated"/>
 		<div xmlns="http://www.w3.org/1999/xhtml"><h1>CLASSIFICAZIONE DEI TITOLI DI STUDIO ITALIANI</h1>
@@ -15,7 +19,7 @@
 	<status value="active"/>
 	<experimental value="false"/>
 	<caseSensitive value="false"/>
-	<language value="en-US"/>
+	<language value="it-IT"/>
 	<description value="ISTAT - Classificazione dei titoli di studio italiani"/>
 	<jurisdiction>		
 		<coding>

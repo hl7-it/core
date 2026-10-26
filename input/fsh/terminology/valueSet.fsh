@@ -20,8 +20,6 @@ Id: vs-role-code-it
 Title: "Role Code"
 Description: "Insieme di codici che identificano il ruolo professionale svolto da un operatore sanitario all'interno dei sistemi sanitari e nei flussi informativi."
 * ^experimental = false
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.5.1.111"
 * include codes from system $cs-role-it
 
 * ^expansion.timestamp = "2024-06-01T12:00:00Z"
@@ -95,9 +93,7 @@ Id: vs-struttura-azienda
 Title: "identificativi per le Aziende Ospedaliere o Strutture di Ricovero (HSP 11)"
 Description: "ValueSet che raccoglie i codici identificativi delle strutture di ricovero pubbliche e private accreditate del **Servizio Sanitario Nazionale**, incluse le relative caratteristiche organizzative e territoriali."
 * ^experimental = false
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.4.1.2"
-* include codes from system http://hl7.it/fhir/itcore/CodeSystem/minsan-hsp
+* include codes from system $cs-aziendaOspedaliera
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -119,8 +115,6 @@ Id: vs-whoatc
 Title: "WHO ATC"
 Description: "ValueSet che raccoglie i codici della classificazione ATC utilizzati per identificare e classificare i medicinali."
 * ^experimental = false
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:2.16.840.1.113883.6.73"
 * insert ATCCopyrightForVS
 * codes from system $cs-whoatc
 
@@ -130,8 +124,6 @@ Id: vs-aifa-ge
 Title: "AIFA - Gruppi di Equivalenza"
 Description: "ValueSet che raccoglie i codici dei gruppi di equivalenza farmaceutica utilizzati per identificare medicinali considerati terapeuticamente equivalenti."
 * ^experimental = false
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.6.1.51"
 * include codes from system $cs-aifa-ge
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -140,8 +132,6 @@ Id: vs-mds-asl
 Title: "MDS - ASL"
 Description: "ValueSet che raccoglie i codici delle Aziende Sanitarie Locali e degli enti territoriali del **Servizio Sanitario Nazionale**."
 * ^name = "ValuesetMinisteroDellaSalute_IDASL"
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.4.1.1"
 * ^experimental = false
 * include codes from system CSMdsAsl
 
@@ -553,8 +543,6 @@ Id: vs-istatcomune
 Title: "ISTAT - Codici dei Comuni"
 Description: "ValueSet che raccoglie i codici ISTAT dei comuni italiani utilizzati per l’identificazione univoca delle entità territoriali comunali."
 * ^experimental = false
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.4.2.3"
 
 * include codes from system $cs-istat-comune
 
@@ -8461,9 +8449,6 @@ Title: "Ministero della Salute - Codici Regioni / PPAA"
 Description: "ValueSet che raccoglie i codici delle Regioni e delle Province Autonome italiane utilizzati dal **Ministero della Salute** per l’identificazione delle entità territoriali del **Servizio Sanitario Nazionale**."
 * ^experimental = false
 
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.4.2.1"
-
 * include codes from system CsMinSanRegioni
 
 * ^expansion.timestamp = "2024-06-05T12:00:00Z"
@@ -8560,7 +8545,7 @@ Title: "ISTAT - Unita Amministrative Territoriali Estere"
 Description: "ValueSet che raccoglie i codici ISTAT delle unità amministrative territoriali estere utilizzati per l’identificazione standardizzata di Stati e territori esteri."
 * ^experimental = false
 
-* include codes from system http://hl7.it/fhir/itcore/CodeSystem/istat-unitaAmministrativeTerritorialiEstere
+* include codes from system $cs-istat-statoNascita
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -8792,8 +8777,6 @@ Id: vs-istatprofessioni
 Title: "ISTAT - Professioni"
 Description: "Valueset che raccoglie i codici per la classificazione delle professioni."
 * ^experimental = false
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.6.2.3"
 * include codes from system $cs-istatprofessione
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -8803,8 +8786,6 @@ Id: vs-istat-titoloStudio
 Title: "ISTAT - Titoli di studio"
 Description: "ValueSet che raccoglie i codici ISTAT dei titoli di studio italiani."
 * ^experimental = false
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.6.2.1"
 * include codes from system $cs-titoloStudio
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -8843,8 +8824,6 @@ Id: vs-istat-provincia
 Title: "ISTAT - Codici Province"
 Description: "ValueSet che raccoglie i codici ISTAT delle province italiane utilizzati per l’identificazione standardizzata delle entità territoriali provinciali."
 * ^experimental = false
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.4.2.2"
 * include codes from system $cs-provincia
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -8853,6 +8832,4 @@ Id: aifa-aic
 Title: "AIC - Autorizzazione Immissione in Commercio"
 Description: "ValueSet che comprende i codici di Autorizzazione all'Immissione in Commercio (AIC) definiti da AIFA. Poiché il sistema di codifica è gestito da AIFA, l'elenco completo dei codici deve essere reperito tramite le fonti ufficiali di AIFA"
 * ^experimental = false
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.6.1.5"
 * include codes from system $cs-aifaAIC
