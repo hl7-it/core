@@ -8,3 +8,41 @@ The link 'StructureDefinition-narrativeLink.html' for "narrativeLink extension" 
 
 HL7 Defined CodeSystems should ensure that every concept has a definition
 Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://hl7.it/fhir/itcore/CodeSystem/cs-aifa-aic' could not be found, so the value set cannot be expanded
+
+
+# ISO 3166 has no Italian display for IT in the terminology server; 'Italy' is the valid default-language display
+There are no valid display names found for the code urn:iso:std:iso:3166#IT for language(s) 'it-IT'. The display is 'Italy' which is a valid display for the default language
+There are no valid display names found for the code urn:iso:std:iso:3166#IT for language(s) 'it'. The display is 'Italy' which is a valid display for the default language
+
+# OIDs are not assigned to all terminology resources in this IG
+%should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage%
+
+# No OIDs assigned to the ImplementationGuide and StructureDefinition resources
+%could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)%
+
+# HL7 v3 code systems have no Italian displays in the terminology server; the English displays are valid for the default language
+There are no valid display names found for the code http://terminology.hl7.org/CodeSystem/v3-NullFlavor#OTH for language(s) 'it-IT'. The display is 'Other' which is a valid display for the default language
+There are no valid display names found for the code http://terminology.hl7.org/CodeSystem/v3-ActCode#PUBLICPOL for language(s) 'it-IT'. The display is 'public healthcare' which is a valid display for the default language
+There are no valid display names found for the code http://terminology.hl7.org/CodeSystem/v3-ActStatus#active for language(s) 'it-IT'. The display is 'active' which is a valid display for the default language
+
+# SNOMED CT codes with no Italian displays in the terminology server; the English displays are valid for the default language
+There are no valid display names found for the code http://snomed.info/sct#1290586005 for language(s) 'it-IT'. The display is 'Plain X-ray of bone structure of rib, clavicle and sternum' which is a valid display for the default language%
+There are no valid display names found for the code http://snomed.info/sct#51185008 for language(s) 'it-IT'. The display is 'Thorax' which is a valid display for the default language%
+There are no valid display names found for the code http://snomed.info/sct#396540005 for language(s) 'it-IT'. The display is 'Phlebotomy' which is a valid display for the default language%
+
+# The regex extension is deprecated but still used in this IG
+The extension http://hl7.org/fhir/StructureDefinition/regex|5.3.0 is deprecated with the note: 'This was deprecated in favor of using a constraint on the element using FHIRPath, since constraints allow for the provision of a human readable message associated with the regex'%
+
+# Large value sets are only partially displayed in the rendered pages
+The value set expansion is too large, and only a subset has been displayed%
+
+# Italian displays in the ValueSet for HL7 v3 codes that have no Italian displays in the terminology server
+Wrong Display Name 'attivo' for http://terminology.hl7.org/CodeSystem/v3-ActStatus#active. There are no valid display names found for language(s) 'it-IT'. Default display is 'active'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code%
+Wrong Display Name 'sospeso' for http://terminology.hl7.org/CodeSystem/v3-ActStatus#suspended. There are no valid display names found for language(s) 'it-IT'. Default display is 'suspended'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code%
+Wrong Display Name 'abortito' for http://terminology.hl7.org/CodeSystem/v3-ActStatus#aborted. There are no valid display names found for language(s) 'it-IT'. Default display is 'aborted'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code%
+Wrong Display Name 'completato' for http://terminology.hl7.org/CodeSystem/v3-ActStatus#completed. There are no valid display names found for language(s) 'it-IT'. Default display is 'completed'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code%
+Wrong Display Name 'sconosciuto' for http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNK. There are no valid display names found for language(s) 'it-IT'. Default display is 'unknown'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code%
+
+# Italian displays in the ValueSet for HL7 v2-0203 identifier type codes
+Wrong Display Name 'Patente di Guida' for http://terminology.hl7.org/CodeSystem/v2-0203#DL. Valid display is 'Driver's license number' (for the language(s) 'it-IT'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code%
+Wrong Display Name 'Numero Passaporto' for http://terminology.hl7.org/CodeSystem/v2-0203#PPN. Valid display is 'Passport number' (for the language(s) 'it-IT'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code%

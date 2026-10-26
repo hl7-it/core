@@ -11,7 +11,7 @@ Usage: #example
 * identifier[struttura].value = #120902
 * identifier[partitaIva].system = $CF
 * identifier[partitaIva].value = "04735061006"
-* type = $CS-tipoEntita#ao "Azienda Opedaliera"
+* type = $CS-tipoEntita#ao "Azienda Ospedaliera"
 * name = "Azienda Ospedaliera San Giovanni Addolorata"
 * telecom.system = #phone
 * telecom.value = "067010203"
