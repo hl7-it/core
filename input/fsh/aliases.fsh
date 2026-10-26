@@ -47,6 +47,12 @@ Alias: $cs-istat-statoNascita = http://hl7.it/fhir/itcore/CodeSystem/istat-unita
 Alias: $cs-istat-comune = http://hl7.it/fhir/itcore/CodeSystem/istat-unitaAmministrativeTerritoriali
 //Alias: $vs-istat-comune = https://www.hl7.it/fhir/terminology/ValueSet/istat-comune
 Alias: $vs-istat-comune = http://hl7.it/fhir/itcore/ValueSet/vs-istatcomune
+Alias: $CF = http://hl7.it/fhir/itcore/CodeSystem/cs-codicefiscale
+Alias: $ANPR = http://hl7.it/fhir/itcore/CodeSystem/cs-anpr
+Alias: $ENI = http://hl7.it/fhir/itcore/CodeSystem/cs-codice-eni
+Alias: $ANA = http://hl7.it/fhir/itcore/CodeSystem/cs-codice-ana
+Alias: $TEAM = http://hl7.it/fhir/itcore/CodeSystem/cs-codice-team
+Alias: $STP = http://hl7.it/fhir/itcore/CodeSystem/cs-codice-stp
 
 //Practitioner e PractitionerRole
 //Alias: $cs-role-it = https://www.hl7.it/fhir/terminology/CodeSystem/it-V3RoleCode
@@ -81,10 +87,13 @@ Alias: $vs-whoatc = http://hl7.it/fhir/itcore/ValueSet/vs-whoatc
 //Alias: $cs-whoatc = http://www.whocc.no/atc
 Alias: $cs-whoatc = http://hl7.it/fhir/itcore/CodeSystem/aifa-atc
 //Alias: $vs-aifa-ge = https://hl7.it/fhir/itcore/ValueSet/vs-aifa-ge
+Alias: $vs-aifa-ge = http://hl7.it/fhir/itcore/ValueSet/vs-aifa-ge
 Alias: $cs-aifa-ge = http://hl7.it/fhir/itcore/CodeSystem/aifa-gruppo-equivalenza
 Alias: $vs-nullFlavor = http://terminology.hl7.org/ValueSet/v3-NullFlavor
 Alias: $cs-nullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
 //Alias: $vs-aifa-aic = https://www.hl7.it/fhir/terminology/ValueSet/aifa-aic
+Alias: $cs-aifaAIC = http://hl7.it/fhir/itcore/CodeSystem/cs-aifa-aic
+Alias: $vs-aifaAIC = http://hl7.it/fhir/itcore/ValueSet/aifa-aic
 Alias: $ext-originalText = http://hl7.org/fhir/StructureDefinition/originalText
 
 //Organization
@@ -100,7 +109,6 @@ Alias: $cs-aziendaOspedaliera = http://hl7.it/fhir/itcore/CodeSystem/minsan-hsp
 //Alias: $vs-struttura = https://www.hl7.it/fhir/terminology/ValueSet/minsan-idStrutture
 //Alias: $vs-strutturaInterna = https://www.hl7.it/fhir/terminology/ValueSet/minsan-idStruttureInterne 
 //Alias: $cs-strutturaInterna = https://www.hl7.it/fhir/terminology/CodeSystem/cs-mds-idStruttureInterne
-
 //Alias: $vs-tipoOrg = https://www.hl7.it/fhir/terminology/ValueSet/tipoOrgSocioSanitaria
 Alias: $CS-tipoEntita = http://hl7.it/fhir/itcore/CodeSystem/it-tipoEntita
-
+Alias: $mds-struttureinterne = http://hl7.it/fhir/itcore/CodeSystem/cs-mds-idStruttureInterne

@@ -917,3 +917,78 @@ Description: "ISTAT - Province"
 * #092	"Cagliari"
 * #095	"Oristano"
 * #111	"Sud Sardegna"
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CodeSystem: CsAifaAic
+Id: cs-aifa-aic
+Title: "AIFA - Autorizzazione Immissione in Commercio"
+Description: "Sistema di codifica AIC (Autorizzazione all'Immissione in Commercio) gestito da AIFA. Questo CodeSystem è dichiarato esclusivamente a fini di interoperabilità e non include i concetti. I codici validi devono essere reperiti attraverso le fonti ufficiali pubblicate dall'Agenzia Italiana del Farmaco."
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #not-present //si rinvia a https://www.aifa.gov.it/
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CodeSystem: CsCodiceFiscale
+Id: cs-codicefiscale
+Title: "CF - Codice Fiscale / Partita IVA"
+Description: "CodeSystem che identifica il dominio dei Codici Fiscali italiani. I codici non sono enumerati nel presente artefatto e sono definiti secondo le regole ufficiali vigenti."
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #not-present
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.6.3.2"
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CodeSystem: CsANPR
+Id: cs-anpr
+Title: "ANPR - Anagrafe Nazionale della Popolazione Residente"
+Description: "CodeSystem che identifica il dominio degli identificativi dell'Anagrafe Nazionale della Popolazione Residente (ANPR). I codici non sono enumerati nel presente artefatto e sono definiti secondo le regole ufficiali vigenti."
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #not-present
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.4.3.16"
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CodeSystem: CsCodiceEni
+Id: cs-codice-eni
+Title: "ENI - Europeo Non Iscritto"
+Description: "CodeSystem che identifica il dominio degli identificativi ENI attribuiti ai cittadini dell'Unione Europea temporaneamente presenti sul territorio nazionale e non iscritti al Servizio Sanitario Nazionale. I codici non sono enumerati nel presente artefatto e sono definiti secondo le regole ufficiali vigenti."
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #not-present
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.4.3.18"
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CodeSystem: CsCodiceAna
+Id: cs-codice-ana
+Title: "ANA - Anagrafica Nazionale Assistiti"
+Description: "CodeSystem che identifica gli assistiti registrati nell'Anagrafe Nazionale Assistiti (ANA). I codici non sono enumerati nel presente artefatto e corrispondono agli identificativi gestiti dall'ANA secondo le regole e le modalità definite dal Servizio Sanitario Nazionale."
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #not-present
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.4.3.15"
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CodeSystem: CsCodiceTeam
+Id: cs-codice-team
+Title: "TEAM - Tessera Europea di Assicurazione Malattia"
+Description: "CodeSystem che identifica il dominio dei codici TEAM (Tessera Europea di Assicurazione Malattia). I codici non sono enumerati nel presente artefatto e sono definiti secondo le regole ufficiali vigenti."
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #not-present
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.4.3.7"
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CodeSystem: CsCodiceSTP
+Id: cs-codice-stp
+Title: "STP - Straniero Temporaneamente Presente"
+Description: "CodeSystem che identifica il dominio dei codici STP attribuiti ai cittadini stranieri non appartenenti all'Unione Europea temporaneamente presenti sul territorio nazionale e non iscritti al Servizio Sanitario Nazionale. I codici non sono enumerati nel presente artefatto e sono definiti secondo le regole ufficiali vigenti."
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #not-present
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.4.3.17"

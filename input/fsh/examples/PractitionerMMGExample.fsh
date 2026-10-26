@@ -5,7 +5,7 @@ Description: "Esempio di medico di medicina generale iscritto al SSN rappresenta
 Usage: #example
 
 * id = "1d1632b0-d7cc-49cf-9f2d-f5d8669e16ee"
-* identifier[codiceFiscale].system = "urn:oid:2.16.840.1.113883.2.9.4.3.2"
+* identifier[codiceFiscale].system = $CF
 * identifier[codiceFiscale].value = "LLNFLR70A67I804I"
 * active = true
 * name.family = "Mancini"

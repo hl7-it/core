@@ -5,7 +5,7 @@ Description: "Esempio di tecnico di radiologia medica iscritto al SSN rappresent
 Usage: #example
 
 * id = "587bb258-60c7-4f44-8f23-973333aada8c"
-* identifier[codiceFiscale].system = "urn:oid:2.16.840.1.113883.2.9.4.3.2"
+* identifier[codiceFiscale].system = $CF
 * identifier[codiceFiscale].value = "CTRMNN75E42H501H"
 * active = true
 * name.family = "Caterini"

@@ -20,34 +20,33 @@ Description: "Profilo base specifico per Organization: include le informazioni m
 	and partitaIva 0..1
 	and strutturaInterna 0..1
 
-
+//-----------asl Regione----------------------------------------------------
 * identifier[aslRegione] ^short = "Identificativo Azienda Sanitaria Locale (FLS 11 - 6 char)"
 * identifier[aslRegione].system 1..1
 * identifier[aslRegione].value 1..1
-* identifier[aslRegione].system = "urn:oid:2.16.840.1.113883.2.9.4.1.1"  // pattern
+* identifier[aslRegione].system = $cs-aslRegione  // pattern
 * identifier[aslRegione].value from VsMdsAsl (example)
 * identifier[aslRegione] ^example.label = "ASL ROMA 1"
 * identifier[aslRegione] ^example.valueString = "120201"
-
-
+//----------struttura-------------------------------------------------------
 * identifier[struttura] ^short = "Identificativo Azienda Ospedaliera o Identificativo Struttura di Ricovero (HSP 11)"
-* identifier[struttura].system = "urn:oid:2.16.840.1.113883.2.9.4.1.2"  // pattern
+* identifier[struttura].system = $cs-aziendaOspedaliera  // pattern
 * identifier[struttura].value from VsStrutturaAzienda (example)
 * identifier[struttura].system 1..1
 * identifier[struttura].value 1..1
 * identifier[struttura] ^example.label = "AZIENDA OSP. S.GIOVANNI/ADDOLORATA ROMA"
 * identifier[struttura] ^example.valueString = "120902"
-
+//----------struttura interna------------------------------------------------
 * identifier[strutturaInterna] ^short = "Identificativo Struttura Interna di Ricovero"
-* identifier[strutturaInterna].system = $oid  // pattern
+* identifier[strutturaInterna].system = $mds-struttureinterne  // pattern
 * identifier[strutturaInterna].value from VsStrutturaInterna (example)
 * identifier[strutturaInterna].system 1..1
 * identifier[strutturaInterna].value 1..1
 * identifier[strutturaInterna] ^example.label = "ISTITUTO CHIRURGICO ORTOPEDICO REGINA MARGHERITA"
 * identifier[strutturaInterna] ^example.valueString = "010909.05"
-
+//----------partita IVA------------------------------------------------------
 * identifier[partitaIva] ^short = "Partita IVA Organizzazione/Codice Fiscale Organizzazione"
-* identifier[partitaIva].system = "urn:oid:2.16.840.1.113883.2.9.6.3.2" 
+* identifier[partitaIva].system = $CF
 * identifier[partitaIva].system 1..1
 * identifier[partitaIva].value 1..1 
 * identifier[partitaIva] ^example.label = "Partita IVA"
