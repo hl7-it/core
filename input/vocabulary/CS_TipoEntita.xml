@@ -76,8 +76,8 @@
 			</concept>
 			<concept>
 				<code value="ao"/>
-				<display value="Azienda Opedaliera"/>
-				<definition value="Azienda Opedaliera. In dipendenza dell'organizzazione regionale della sanità la dizione e le finalità dei 'Azienda Opedaliera' può variare."/>
+				<display value="Azienda Ospedaliera"/>
+				<definition value="Azienda Ospedaliera. In dipendenza dell'organizzazione regionale della sanità la dizione e le finalità dei 'Azienda Ospedaliera' può variare."/>
 			</concept>
 			<concept>
 				<code value="aou"/>

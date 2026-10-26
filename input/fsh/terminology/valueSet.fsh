@@ -11,7 +11,7 @@ Description: "Insieme dei valori ammessi per qualificare **address.use**, ossia 
 * $cs-addr-use-org#home "Residenza"
 * $cs-addr-use-org#work "Lavoro"
 * $cs-addr-use-org#temp "Domicilio temporaneo"
-* $cs-addr-use-org#old "old"
+* $cs-addr-use-org#old "Obsoleto"
 * $cs-addr-use-org#billing "Indirizzo di Fatturazione"
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -157,7 +157,7 @@ Description: "ValueSet che raccoglie i codici delle tipologie di entità organiz
 * $CS-tipoEntita#ric-hsp "Strutture di Ricovero (HSP)"
 * $CS-tipoEntita#ao "Azienda Ospedaliera"
 * $CS-tipoEntita#aou "Azienda Ospedaliera Universitaria"
-* $CS-tipoEntita#irccs "Istituto di Ricovero e Cura a Carattere Scientifico"
+* $CS-tipoEntita#irccs "Istituti di Ricovero e Cura a Carattere Scientifico"
 * $CS-tipoEntita#irccs-pub "IRCCS pubblico"
 * $CS-tipoEntita#irccs-priv "IRCCS privato"
 * $CS-tipoEntita#irccs-fond "Fondazione IRCCS"
@@ -166,7 +166,7 @@ Description: "ValueSet che raccoglie i codici delle tipologie di entità organiz
 * $CS-tipoEntita#pol-univ "Policlinico universitario privato"
 * $CS-tipoEntita#cc-priv "Casa di cura privata"
 * $CS-tipoEntita#cc-priv-a "Casa di cura privata accreditata"
-* $CS-tipoEntita#cc-priv-na "Centro di cura privata non accreditata"
+* $CS-tipoEntita#cc-priv-na "Casa di cura privata non accreditata"
 * $CS-tipoEntita#dist-san "Distretto Socio Sanitario"
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
