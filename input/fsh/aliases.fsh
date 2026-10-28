@@ -9,11 +9,11 @@ Alias: $oid = urn:ietf:rfc:1155
 
 
 //Patient
-Alias: $patient-citizenship = http://hl7.org/fhir/StructureDefinition/patient-citizenship|5.3.0
-Alias: $patient-birthPlace = http://hl7.org/fhir/StructureDefinition/patient-birthPlace|5.3.0
+Alias: $patient-citizenship = http://hl7.org/fhir/StructureDefinition/patient-citizenship
+Alias: $patient-birthPlace = http://hl7.org/fhir/StructureDefinition/patient-birthPlace
 //Alias: $istat-luogoNascita = https://www.hl7.it/fhir/terminology/ValueSet/istat-luogoNascita
 Alias: $istat-luogoNascita = http://hl7.it/fhir/itcore/ValueSet/vs-istat-luogoNascita
-Alias: $patient-nationality = http://hl7.org/fhir/StructureDefinition/patient-nationality|5.3.0
+Alias: $patient-nationality = http://hl7.org/fhir/StructureDefinition/patient-nationality
 //Alias: $istat-titoloStudio = https://www.hl7.it/fhir/terminology/ValueSet/istat-titoloStudio
 Alias: $cs-titoloStudio = http://hl7.it/fhir/itcore/CodeSystem/istat-ctsi03
 Alias: $istat-titoloStudio = http://hl7.it/fhir/itcore/ValueSet/vs-istat-titoloStudio
@@ -25,17 +25,17 @@ Alias: $istat-cittadinanza = http://hl7.it/fhir/itcore/ValueSet/vs-istat-cittadi
 //Alias: $tipoIdentificatore = https://www.hl7.it/fhir/terminology/ValueSet/VstipoIdentificatore
 Alias: $cs-tipoIdentificatore = http://terminology.hl7.org/CodeSystem/v2-0203
 Alias: $tipoIdentificatore = http://hl7.it/fhir/itcore/ValueSet/vs-tipoIdentificatore
-Alias: $iso21090-ADXP-streetName = http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName|5.3.0
-Alias: $iso21090-ADXP-streetNameBase = http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameBase|5.3.0
-Alias: $iso21090-ADXP-streetNameType = http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameType|5.3.0
-Alias: $iso21090-ADXP-houseNumber = http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber|5.3.0
+Alias: $iso21090-ADXP-streetName = http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName
+Alias: $iso21090-ADXP-streetNameBase = http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameBase
+Alias: $iso21090-ADXP-streetNameType = http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameType
+Alias: $iso21090-ADXP-houseNumber = http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber
 //Alias: $cs-istat-dug = https://www.hl7.it/fhir/terminology/CodeSystem/dug
 Alias: $cs-istat-dug = http://hl7.it/fhir/itcore/CodeSystem/cs-istatdug
 //Alias: $vs-istat-dug = https://www.hl7.it/fhir/terminology/ValueSet/istat-dug
 Alias: $vs-istat-dug = http://hl7.it/fhir/itcore/ValueSet/vs-istatdug
 Alias: $iso21090-code-string = http://hl7.org/fhir/StructureDefinition/iso21090-codedString
 Alias: $add-use  = http://hl7.org/fhir/address-use
-Alias: $vs-addr-use-org = 	http://hl7.org/fhir/ValueSet/address-use|4.0.1
+Alias: $vs-addr-use-org = 	http://hl7.org/fhir/ValueSet/address-use
 Alias: $vs-addr-use-it = 	http://hl7.it/fhir/itcore/ValueSet/vs-add-use-it
 Alias: $cs-addr-use-org = http://hl7.org/fhir/address-use
 //Alias: $vs-stato = https://www.hl7.it/fhir/terminology/ValueSet/istat-stato
@@ -76,7 +76,7 @@ Alias: $coverage-exceptionStatus = http://hl7.it/fhir/itcore/StructureDefinition
 Alias: $V3ActStatus = http://terminology.hl7.org/CodeSystem/v3-ActStatus
 Alias: $v3-NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
 //Alias: $cs-esenzione = http://terminology.hl7.org/CodeSystem/v3-ActStatus
-Alias: $dataAbsentReasonExt = http://hl7.org/fhir/StructureDefinition/data-absent-reason|5.3.0
+Alias: $dataAbsentReasonExt = http://hl7.org/fhir/StructureDefinition/data-absent-reason
 //Alias: $cs-codici-esenzioni = https://www.hl7.it/fhir/terminology/CodeSystem/mds-esenzioni
 Alias: $vs-esenzione-ne = http://hl7.it/fhir/itcore/ValueSet/vs-esenzione-ne
 Alias: $cs-coveragetype = 	http://terminology.hl7.org/CodeSystem/v3-ActCode
@@ -94,7 +94,7 @@ Alias: $cs-nullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
 //Alias: $vs-aifa-aic = https://www.hl7.it/fhir/terminology/ValueSet/aifa-aic
 Alias: $cs-aifaAIC = http://hl7.it/fhir/itcore/CodeSystem/cs-aifa-aic
 Alias: $vs-aifaAIC = http://hl7.it/fhir/itcore/ValueSet/aifa-aic
-Alias: $ext-originalText = http://hl7.org/fhir/StructureDefinition/originalText|5.3.0
+Alias: $ext-originalText = http://hl7.org/fhir/StructureDefinition/originalText
 
 //Organization
 //Alias: $vs-asl =  https://www.hl7.it/fhir/terminology/ValueSet/uri-idAslRegione

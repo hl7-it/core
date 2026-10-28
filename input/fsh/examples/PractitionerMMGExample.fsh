@@ -40,5 +40,3 @@ Usage: #example
 * birthDate = "1970-01-27"
 * qualification.code[+] = $cs-titoloStudio#70000000 "LAUREA - Vecchio o nuovo ordinamento (corsi di durata compresa tra i 2 e i 6 anni)"
 * qualification.code[=] = $cs-titoloStudio#72004001 "Medicina e chirurgia"
-* communication.coding.code = #it
-* communication.coding.display = "Italiano"

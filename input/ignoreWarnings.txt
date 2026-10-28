@@ -4,7 +4,273 @@
 # (And include comments like this justifying why)
 # See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
 
+HL7 Defined CodeSystems should ensure that every concept has a definition
+
+Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://hl7.it/fhir/itcore/CodeSystem/cs-aifa-aic' could not be found, so the value set cannot be expanded
+
+The resource CodeSystem/cs-istatdug should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource CodeSystem/cs-mds-idStruttureInterne should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+A definition for CodeSystem 'http://hl7.it/fhir/itcore/CodeSystem/cs-aifa-aic' could not be found, so the code cannot be validated 
+
+The resource ValueSet/aifa-aic should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource ValueSet/vs-aifa-ge should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource ValueSet/vs-esenzione-ne should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource ValueSet/vs-istat-luogoNascita should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource ValueSet/vs-istat-provincia should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource ValueSet/vs-istat-titoloStudio should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource ValueSet/vs-istatcomune should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+This expansion has no parameters; in the absence of the parameters that controlled the expansion, systems may not be able to determine whether it is safe to use this expansion
+
+Because the expansion uses system 'http://hl7.it/fhir/itcore/CodeSystem/cs-istatdug' without a version, it should list the system using the expansion parameter 'used-codesystem'
+
+The resource ValueSet/vs-istatdug should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource ValueSet/vs-istatprofessioni should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource ValueSet/vs-istatunitaAmministrativeTerritorialiEstere should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource ValueSet/vs-mds-asl should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)	--
+
+This expansion has no parameters; in the absence of the parameters that controlled the expansion, systems may not be able to determine whether it is safe to use this expansion
+
+Because the expansion uses system 'http://hl7.it/fhir/itcore/CodeSystem/cs-minsan-regione' without a version, it should list the system using the expansion parameter 'used-codesystem'
+
+The resource ValueSet/vs-minsan-regione should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+This expansion has no parameters; in the absence of the parameters that controlled the expansion, systems may not be able to determine whether it is safe to use this expansion
+
+Because the expansion uses system 'http://hl7.it/fhir/itcore/CodeSystem/it-V3RoleCode' without a version, it should list the system using the expansion parameter 'used-codesystem'
+
+The resource ValueSet/vs-role-code-it should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource ValueSet/vs-stato-esenzione should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource ValueSet/vs-struttura-azienda should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource ValueSet/vs-strutturaInterna should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource ValueSet/vs-tipo-organizzazione should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource ValueSet/vs-whoatc should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource CodeSystem/it-tipoEntita should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+Resource has a language, but the XHTML does not have an lang or an xml:lang tag (needs both - see https://www.w3.org/TR/i18n-html-tech-lang/#langvalues)
+
+The code '1' is not a valid code in this code system
+
+The code '3' is not a valid code in this code system
+
+The code '2' is not a valid code in this code system
+
+The code '4' is not a valid code in this code system
+
+The code '5' is not a valid code in this code system
+
+The resource CodeSystem/istat-unitaAmministrativeTerritorialiEstere should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource ValueSet/vs-mds-asl should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource ValueSet/vs-tipoIdentificatore should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+There are no valid display names found for the code urn:iso:std:iso:3166#IT for language(s) 'it-IT'. The display is 'Italy' which is a valid display for the default language
+
+There are no valid display names found for the code urn:iso:std:iso:3166#IT for language(s) 'it'. The display is 'Italy' which is a valid display for the default language
+
+There are no valid display names found for the code http://terminology.hl7.org/CodeSystem/v3-ActCode#PUBLICPOL for language(s) 'it-IT'. The display is 'public healthcare' which is a valid display for the default language
+
+There are no valid display names found for the code http://terminology.hl7.org/CodeSystem/v3-ActStatus#active for language(s) 'it-IT'. The display is 'active' which is a valid display for the default language
+
+There are no valid display names found for the code http://terminology.hl7.org/CodeSystem/v3-NullFlavor#OTH for language(s) 'it-IT'. The display is 'Other' which is a valid display for the default language
+
+The value provided ('045018064') was not found in the value set 'AIC - Autorizzazione Immissione in Commercio' (...) and a code is recommended to come from this value set
+
+There are no valid display names found for the code http://snomed.info/sct#421026006 for language(s) 'it-IT'. The display is 'Oral tablet' which is a valid display for the default language
+
+There are no valid display names found for the code http://snomed.info/sct#1290586005 for language(s) 'it-IT'. The display is 'Plain X-ray of bone structure of rib, clavicle and sternum' which is a valid display for the default language
+
+There are no valid display names found for the code http://snomed.info/sct#51185008 for language(s) 'it-IT'. The display is 'Thorax' which is a valid display for the default language
+
+There are no valid display names found for the code http://snomed.info/sct#396540005 for language(s) 'it-IT'. The display is 'Phlebotomy' which is a valid display for the default language
+
+Reference to draft CodeSystem http://hl7.it/fhir/itcore/CodeSystem/cs-istatdug|0.2.0
+
+Reference to draft CodeSystem http://hl7.it/fhir/itcore/CodeSystem/cs-minsan-regione|0.2.0
+
+Reference to experimental CodeSystem http://hl7.it/fhir/itcore/CodeSystem/cs-province-istat|0.2.0
+
+The extension http://hl7.org/fhir/StructureDefinition/regex|5.3.0 is deprecated with the note: 'This was deprecated in favor of using a constraint on the element using FHIRPath, since constraints allow for the provision of a human readable message associated with the regex'
+
+The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
+
+The resource [...] could usefully have an OID assigned
+
+The value set expansion is too large, and only a subset has been displayed
+
+The value set include has too many concepts to validate (7.895, more than the limit of 1.000), so each individual code has not been checked
+
+This expansion has no identifier. Identifiers are recommended to help with audit and traceability
+
+This property has only a code ('...') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+
+The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+
+Wrong Display Name 'Residenza'. Valid display is 'Home'
+
+Wrong Display Name 'Lavoro'. Valid display is 'Work'
+
+Wrong Display Name 'Domicilio temporaneo'. Valid display is 'Temporary'
+
+Wrong Display Name 'old'. Valid display is 'Old / Incorrect'
+
+Wrong Display Name 'Indirizzo di Fatturazione'. Valid display is 'Billing'
+
+Wrong Display Name 'Non cittadini riconosciuti'. Valid display is 'Cittadini non riconosciuti'
+
+Wrong Display Name 'attivo'. Valid display is 'active'
+
+Wrong Display Name 'sospeso'. Valid display is 'suspended'
+
+Wrong Display Name 'abortito'. Valid display is 'aborted'
+
+Wrong Display Name 'completato'. Valid display is 'completed'
+
+Wrong Display Name 'sconosciuto'. Valid display is 'unknown'
+
+Wrong Display Name 'Azienda Ospedaliera'. Valid display is 'Azienda Opedaliera'
+
+Wrong Display Name 'Istituto di Ricovero e Cura a Carattere Scientifico'. Valid display is 'Istituti di Ricovero e Cura a Carattere Scientifico'
+
+Wrong Display Name 'Centro di cura privata non accreditata'. Valid display is 'Casa di cura privata non accreditata'
+
+Wrong Display Name 'Patente di Guida'. Valid display is 'Driver's license number'
+
+Wrong Display Name 'Numero Passaporto'. Valid display is 'Passport number'
+
+Wrong Display Name 'Residenza' for http://hl7.org/fhir/address-use#home. Valid display is 'Home' (for the language(s) 'it-IT'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+
+Wrong Display Name 'Lavoro' for http://hl7.org/fhir/address-use#work. Valid display is 'Work' (for the language(s) 'it-IT'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+
+Wrong Display Name 'Domicilio temporaneo' for http://hl7.org/fhir/address-use#temp. Valid display is 'Temporary' (for the language(s) 'it-IT'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+
+Wrong Display Name 'old' for http://hl7.org/fhir/address-use#old. Valid display is 'Old / Incorrect' (for the language(s) 'it-IT'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+
+Wrong Display Name 'Indirizzo di Fatturazione' for http://hl7.org/fhir/address-use#billing. Valid display is 'Billing' (for the language(s) 'it-IT'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+
+Wrong Display Name 'Non cittadini riconosciuti' for http://hl7.it/fhir/itcore/CodeSystem/istat-unitaAmministrativeTerritorialiEstere#888. Valid display is 'Cittadini non riconosciuti' (it-IT) (for the language(s) 'it-IT'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+
+Wrong Display Name 'attivo' for http://terminology.hl7.org/CodeSystem/v3-ActStatus#active. There are no valid display names found for language(s) 'it-IT'. Default display is 'active'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+
+Wrong Display Name 'sospeso' for http://terminology.hl7.org/CodeSystem/v3-ActStatus#suspended. There are no valid display names found for language(s) 'it-IT'. Default display is 'suspended'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+
+Wrong Display Name 'abortito' for http://terminology.hl7.org/CodeSystem/v3-ActStatus#aborted. There are no valid display names found for language(s) 'it-IT'. Default display is 'aborted'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+
+Wrong Display Name 'completato' for http://terminology.hl7.org/CodeSystem/v3-ActStatus#completed. There are no valid display names found for language(s) 'it-IT'. Default display is 'completed'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+
+Wrong Display Name 'sconosciuto' for http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNK. There are no valid display names found for language(s) 'it-IT'. Default display is 'unknown'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+
+Wrong Display Name 'Azienda Ospedaliera' for http://hl7.it/fhir/itcore/CodeSystem/it-tipoEntita#ao. Valid display is 'Azienda Opedaliera' (it-IT) (for the language(s) 'it-IT'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+
+Wrong Display Name 'Istituto di Ricovero e Cura a Carattere Scientifico' for http://hl7.it/fhir/itcore/CodeSystem/it-tipoEntita#irccs. Valid display is 'Istituti di Ricovero e Cura a Carattere Scientifico' (it-IT) (for the language(s) 'it-IT'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+
+Wrong Display Name 'Centro di cura privata non accreditata' for http://hl7.it/fhir/itcore/CodeSystem/it-tipoEntita#cc-priv-na. Valid display is 'Casa di cura privata non accreditata' (it-IT) (for the language(s) 'it-IT'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+
+Wrong Display Name 'Patente di Guida' for http://terminology.hl7.org/CodeSystem/v2-0203#DL. Valid display is 'Driver's license number' (for the language(s) 'it-IT'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+
+Wrong Display Name 'Numero Passaporto' for http://terminology.hl7.org/CodeSystem/v2-0203#PPN. Valid display is 'Passport number' (for the language(s) 'it-IT'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+
+The IG is not for the international realm, and it uses SNOMED CT, so it should fix the SCT edition in the expansion parameters
+
+The value provided ('045018064') was not found in the value set 'AIC - Autorizzazione Immissione in Commercio' (http://hl7.it/fhir/itcore/ValueSet/aifa-aic|0.2.0), and a code is recommended to come from this value set (error message = The System URI could not be determined for the code '045018064' in the ValueSet 'http://hl7.it/fhir/itcore/ValueSet/aifa-aic|0.2.0'; The provided code '#045018064' was not found in the value set 'http://hl7.it/fhir/itcore/ValueSet/aifa-aic|0.2.0')
+
+ValueSet 'http://hl7.org/fhir/ValueSet/concept-property-type|4.0.1' not found
+
+There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.4.0', found versions: 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.4.0 (from hl7.fhir.uv.extensions.r4#5.4.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber' to 'http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber|5.4.0'
+
+There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.4.0', found versions: 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.4.0 (from hl7.fhir.uv.extensions.r4#5.4.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName' to 'http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName|5.4.0'
+
+There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameBase'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.4.0', found versions: 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.4.0 (from hl7.fhir.uv.extensions.r4#5.4.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameBase' to 'http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameBase|5.4.0'
+
+There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameType'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.4.0', found versions: 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.4.0 (from hl7.fhir.uv.extensions.r4#5.4.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameType' to 'http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameType|5.4.0'
+
+There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/data-absent-reason'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.4.0', found versions: 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.4.0 (from hl7.fhir.uv.extensions.r4#5.4.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/data-absent-reason' to 'http://hl7.org/fhir/StructureDefinition/data-absent-reason|5.4.0'
+
+There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/originalText'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.4.0', found versions: 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.4.0 (from hl7.fhir.uv.extensions.r4#5.4.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/originalText' to 'http://hl7.org/fhir/StructureDefinition/originalText|5.4.0'
+
+There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-birthPlace'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.4.0', found versions: 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.4.0 (from hl7.fhir.uv.extensions.r4#5.4.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-birthPlace' to 'http://hl7.org/fhir/StructureDefinition/patient-birthPlace|5.4.0'
+
+There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-citizenship'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.4.0', found versions: 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.4.0 (from hl7.fhir.uv.extensions.r4#5.4.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-citizenship' to 'http://hl7.org/fhir/StructureDefinition/patient-citizenship|5.4.0'
+
+There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-nationality'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.4.0', found versions: 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.4.0 (from hl7.fhir.uv.extensions.r4#5.4.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-nationality' to 'http://hl7.org/fhir/StructureDefinition/patient-nationality|5.4.0'
+
 The link 'StructureDefinition-narrativeLink.html' for "narrativeLink extension" cannot be resolved
 
-HL7 Defined CodeSystems should ensure that every concept has a definition
-Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://hl7.it/fhir/itcore/CodeSystem/cs-aifa-aic' could not be found, so the value set cannot be expanded
+Error from https://tx.fhir.org/r4: Error: The cache 'bdba68b6-89da-4aad-9e0a-8e6a6ffd3fe9' was never issued by this server, and this server has no record of it ever existing. Caches are created with $cache-control?mode=start, and a cache-id is only valid on the server instance and endpoint that issued it - either it was issued somewhere else, or this server has restarted since it was issued
+
+This property has only a code ('regione') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+
+This property has only a code ('flagCapoluogo') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+
+This property has only a code ('comune') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+
+This property has only a code ('provincia') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+
+This property has only a code ('ripartizioneGeografica') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+
+This property has only a code ('continente') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+
+This property has only a code ('regione') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+
+This property has only a code ('comune') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+
+This property has only a code ('aslTerritoriale') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+
+This property has only a code ('codiceAzienda') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+
+This property has only a code ('tipoStruttura') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+
+This property has only a code ('naturaGiuridica') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+
+The resource StructureDefinition/recordCertification could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource StructureDefinition/procedure-it-core could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource StructureDefinition/practitionerRole-it-core could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource StructureDefinition/practitioner-it-core could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource StructureDefinition/patient-qualification-it could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource StructureDefinition/patient-occupation-it could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource StructureDefinition/patient-it-core could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource StructureDefinition/patient-codeableBirthPlace could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource StructureDefinition/organization-it-core could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource StructureDefinition/medication-it-core could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource StructureDefinition/coverage-it-core could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.4.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
+
+The resource StructureDefinition/coverage-exceptionStatus could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource StructureDefinition/address-it-core could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The extension http://hl7.org/fhir/StructureDefinition/regex|5.4.0 is deprecated with the note: 'This was deprecated in favor of using a constraint on the element using FHIRPath, since constraints allow for the provision of a human readable message associated with the regex'
+
+The resource StructureDefinition/address-dug could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+The resource ImplementationGuide/hl7.fhir.it.core could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
